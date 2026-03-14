@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "exmanx24.github.io/aecury",
+    baseUrl: "Emsloan.github.io/aecury",
     ignorePatterns: ["templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
