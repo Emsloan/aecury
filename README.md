@@ -71,6 +71,35 @@ Use tags to categorize:
 - Status: `wip`, `draft`
 - Regions: `historia`, `kravral`, `wahasha`
 
+## Content Guidelines
+
+### No Speculation
+
+When adding or editing lore:
+
+1. **Transfer exact info** - Only write what is established in sources or confirmed by the worldbuilder
+2. **Frame unknowns as questions** - If something is unclear, note it as a question rather than inventing an answer
+3. **Don't embellish** - Avoid adding "scholars believe..." or "it is thought that..." filler
+
+**Wrong:**
+> The azure color of Iadath may be connected to binding magic. Some scholars theorize that Inferniax's flames produce the blue hue.
+
+**Correct:**
+> Inferniax is imprisoned in Iadath.
+>
+> *Questions: Why was Inferniax imprisoned? Is Iadath's azure color related?*
+
+This keeps lore authoritative and prevents contradictions.
+
+### Using AI
+
+AI tools (Claude, etc.) can help with:
+- Transcribing and formatting content from notes, PDFs, diagrams
+- Finding inconsistencies or missing links
+- Suggesting questions to explore
+
+When using AI, apply the same rules: transfer and clarify, don't generate new lore unless explicitly asked. See `CLAUDE.md` for AI-specific guidelines.
+
 ## Local Preview
 
 To preview the site locally before pushing:
