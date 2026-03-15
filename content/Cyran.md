@@ -4,16 +4,13 @@ type: Deity
 tags: [deity, primordial, water]
 ---
 
-**Cyran the Teal**, also known as **The Master of Depths**, is one of the four [[Primordials]]—the divine beings who rose from [[Aecury]]'s core to shape the fundamental elements of the world.
+**Cyran the Teal, Master of Depths** - one of the four [[Primordials]].
 
-## Domain
+From Orishahn's Guide:
 
-As the Master of Depths, Cyran brought forth the oceans and filled Aecury's basins with water.
+> "Third, Cyran the Teal rose from the core of Aecury and found its surface harsh and feverish. Cyran opened their arms and water flowed up from the deepest canyons until half of the world was ocean. With their waters cooling Aecury, Cyran took the title Master of Depths."
 
 ## Related
 
 - [[Primordials]]
-- [[Inferniax]]
-- [[Tannatar]]
-- [[Waernah]]
 - [[Orishahn's Guide to the Primordials and Intrinsics]]

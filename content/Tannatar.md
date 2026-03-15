@@ -4,16 +4,13 @@ type: Deity
 tags: [deity, primordial, earth]
 ---
 
-**Tannatar the Grey**, also known as **The Groundbreaker**, is one of the four [[Primordials]]—the divine beings who rose from [[Aecury]]'s core to shape the fundamental elements of the world.
+**Tannatar the Grey, Groundbreaker** - one of the four [[Primordials]].
 
-## Domain
+From Orishahn's Guide:
 
-As the Groundbreaker, Tannatar created the mountains, canyons, and geological formations that give Aecury its physical structure.
+> "Tannatar the Grey rose from the core of Aecury and found its surface uniform and plain. Tannatar thrust her heel into the ground and it erupted forming mountains and canyons alike. With her structures giving variance to the surface, Tannatar took the title Groundbreaker."
 
 ## Related
 
 - [[Primordials]]
-- [[Inferniax]]
-- [[Cyran]]
-- [[Waernah]]
 - [[Orishahn's Guide to the Primordials and Intrinsics]]

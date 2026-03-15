@@ -4,31 +4,16 @@ type: Intrinsic
 tags: [deity, intrinsic]
 ---
 
-Phobos the Fearful is one of the Intrinsics, a philosophical force born from and embodying fear. Phobos created night, shade, and shadow—all the dark places that Inferniax's light could not reach. In a world where the Lord of Flame sought to illuminate every hidden corner, Phobos provided the necessary counterbalance by creating places where even Inferniax's violet light could not penetrate.
+**Phobos the Fearful** - one of the [[Intrinsics]].
 
-## Nature
+From Orishahn's Guide:
 
-Phobos is driven by fear, yet serves an essential purpose. By creating darkness and shadow, Phobos ensured that not everything could be seen, known, or exposed. This darkness provides refuge, mystery, and the natural day-night cycle necessary for life.
+> "Next Phobos rose to look upon the world and found it exposed and vulnerable. With fear in their heart Phobos created shade and the night, so that the Primordials could see how careless they had been. With their lesson given, Phobos took the title Fearful."
 
-## Creations
-
-- Night
-- Shade
-- Shadow
-- Darkness
-
-## Origin
-
-Phobos emerged as a response to Inferniax's obsession with light and revelation. The Lord of Flame wanted nothing hidden, but Phobos understood that some shadows are necessary for existence.
+*Note: "Inferniax wanted too much light, no place to hide, so made some night and dark and shadow."*
 
 ## Related
 
 - [[Intrinsics]]
 - [[Inferniax the Lord of Flame]]
-- [[Maliga the Spiteful]]
-- [[Tristis the Despairing]]
-- [[Volentia the Peaceful]]
-- [[Vultus the Inquisitive]]
-- [[Mimid the Willful]]
-- [[Inanis the Hungry]]
 - [[Orishahn's Guide to the Primordials and Intrinsics]]

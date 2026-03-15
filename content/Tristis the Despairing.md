@@ -4,26 +4,13 @@ type: Intrinsic
 tags: [deity, intrinsic]
 ---
 
-Tristis the Despairing is one of the Intrinsics, a philosophical force embodying despair and sorrow. Tristis is intrinsically associated with death, loss, and the inevitable entropy that claims all living things. This Intrinsic represents the counterbalance to creation and vitality.
+**Tristis the Despairing** - one of the [[Intrinsics]].
 
-## Nature
+From Orishahn's Guide notes: "death and loss"
 
-Despair and loss are fundamental to existence on Aecury. Tristis ensures that nothing lasts forever and that endings are as much a part of creation as beginnings. Though melancholic, this Intrinsic's domain is necessary for the natural order.
-
-## Portfolio
-
-- Death
-- Loss
-- Despair
-- Endings
+*Potential expansion: Full narrative of Tristis's creation/role not yet written.*
 
 ## Related
 
 - [[Intrinsics]]
-- [[Maliga the Spiteful]]
-- [[Phobos the Fearful]]
-- [[Volentia the Peaceful]]
-- [[Vultus the Inquisitive]]
-- [[Mimid the Willful]]
-- [[Inanis the Hungry]]
 - [[Orishahn's Guide to the Primordials and Intrinsics]]

@@ -4,16 +4,13 @@ type: Deity
 tags: [deity, primordial, air]
 ---
 
-**Waernah the Pale**, also known as **The Skyborne**, is the youngest of the four [[Primordials]]—the divine beings who rose from [[Aecury]]'s core to shape the fundamental elements of the world.
+**Waernah the Pale, Skyborne** - youngest and most frantic of the four [[Primordials]].
 
-## Domain
+From Orishahn's Guide:
 
-The youngest Primordial. As the Skyborne, Waernah created the winds and atmosphere.
+> "Finally the youngest and most frantic of the Primordials, Waernah the Pale, rose from the core of Aecury and found its surface stagnant and passive. Waernah opened their mouth and their breath filled the skies of Aecury. With their winds churning the waters and shearing the mountains, Waernah took the title Skyborne."
 
 ## Related
 
 - [[Primordials]]
-- [[Inferniax]]
-- [[Tannatar]]
-- [[Cyran]]
 - [[Orishahn's Guide to the Primordials and Intrinsics]]
