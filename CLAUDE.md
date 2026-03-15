@@ -2,6 +2,27 @@
 
 This file provides guidance to Claude Code when working with this Quartz wiki for the Aecury worldbuilding project.
 
+## Model Usage
+
+- **Claude Haiku** (free in VS Code) - Use for implementation tasks, file edits, routine work
+- **Claude Opus/Sonnet** - Reserve for complex reasoning, planning, research
+
+When user says "go brr" or similar, Haiku can handle straightforward implementation.
+
+## AI Attribution - REQUIRED
+
+When AI contributes to articles, mark it clearly:
+
+1. **Transcribed content**: Add source attribution (e.g., "From Orishahn's Guide:")
+2. **AI-assisted formatting**: No special marking needed
+3. **AI-generated content** (when explicitly requested): Add footer:
+   ```
+   ---
+   *AI-generated content, pending review*
+   ```
+
+Readers should always know what's canonical vs AI-contributed.
+
 ## Lore Handling - CRITICAL
 
 **Never speculate or invent lore.** When working with Aecury worldbuilding content:

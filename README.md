@@ -71,14 +71,24 @@ Use tags to categorize:
 - Status: `wip`, `draft`
 - Regions: `historia`, `kravral`, `wahasha`
 
-## Using AI Tools
+## AI Usage & Attribution
 
-AI (Claude, etc.) can help with:
-- Transcribing content from notes, PDFs, diagrams into wiki articles
-- Finding inconsistencies or missing links between articles
+This wiki uses AI tools (Claude) for:
+- Transcribing content from notes, PDFs, diagrams
 - Formatting and organizing existing lore
+- Finding inconsistencies or missing links
 
-When using AI for this wiki, tell it to **transcribe, not create** - otherwise it will invent lore that may contradict established canon. See `CLAUDE.md` for specific guidelines.
+### How to identify AI contributions
+
+- **Quoted blocks** with source attribution (e.g., `From Orishahn's Guide:`) = transcribed from source
+- **`*Potential expansion:*`** notes = AI-flagged gaps/questions
+- **`*AI-generated content, pending review*`** footer = AI created when requested
+
+Canonical lore comes from the worldbuilder. AI assists with transcription and organization, not creation.
+
+### For AI contributors
+
+See `CLAUDE.md` for guidelines. Key rule: **transcribe, don't create**.
 
 ## Local Preview
 
