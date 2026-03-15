@@ -36,28 +36,36 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
                     const timelineId = `timeline-${Math.random().toString(36).substr(2, 9)}`
 
                     // Convert to TimelineJS JSON format
-                    const timelineData = {
-                      title: config.title ? {
+                    const timelineData: Record<string, unknown> = {
+                      events: config.events.map((event) => {
+                        const evt: Record<string, unknown> = {
+                          start_date: {
+                            year: event.year,
+                            ...(event.month && { month: event.month }),
+                            ...(event.day && { day: event.day }),
+                          },
+                          text: {
+                            headline: event.headline,
+                            text: event.text || "",
+                          },
+                        }
+                        if (event.endYear) {
+                          evt.end_date = { year: event.endYear }
+                        }
+                        if (event.group) {
+                          evt.group = event.group
+                        }
+                        return evt
+                      }),
+                    }
+
+                    if (config.title) {
+                      timelineData.title = {
                         text: {
                           headline: config.title,
                           text: config.subtitle || "",
                         },
-                      } : undefined,
-                      events: config.events.map((event) => ({
-                        start_date: {
-                          year: event.year,
-                          month: event.month,
-                          day: event.day,
-                        },
-                        end_date: event.endYear ? {
-                          year: event.endYear,
-                        } : undefined,
-                        text: {
-                          headline: event.headline,
-                          text: event.text || "",
-                        },
-                        group: event.group,
-                      })),
+                      }
                     }
 
                     // Replace code block with timeline container
@@ -68,9 +76,18 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
                         id: timelineId,
                         className: ["timeline-container"],
                         "data-timeline": JSON.stringify(timelineData),
-                        style: `height: ${config.height || opts.defaultHeight}; width: 100%; margin: 1rem 0;`,
+                        style: `height: ${config.height || opts.defaultHeight}; width: 100%; margin: 1rem 0; background: var(--lightgray); border-radius: 8px;`,
                       },
-                      children: [],
+                      children: [
+                        {
+                          type: "element",
+                          tagName: "p",
+                          properties: {
+                            style: "text-align: center; padding: 2rem; color: var(--gray);",
+                          },
+                          children: [{ type: "text", value: "Loading timeline..." }],
+                        },
+                      ],
                     }
 
                     if (parent && typeof index === "number") {
@@ -90,40 +107,52 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
           const containers = document.querySelectorAll(".timeline-container");
           containers.forEach((container) => {
             if (container.dataset.initialized === "true") return;
-            if (typeof TL === "undefined") return;
+
+            if (typeof TL === "undefined") {
+              console.warn("TimelineJS not loaded yet, retrying...");
+              setTimeout(initTimelines, 200);
+              return;
+            }
 
             try {
               const data = JSON.parse(container.dataset.timeline);
-              new TL.Timeline(container.id, data, {
+              console.log("Timeline data:", data);
+              const timeline = new TL.Timeline(container.id, data, {
                 hash_bookmark: false,
                 initial_zoom: 2,
-                timenav_height_percentage: 25,
+                timenav_height_percentage: 30,
+                scale_factor: 2,
+                start_at_end: false,
               });
               container.dataset.initialized = "true";
+              console.log("Timeline initialized:", container.id);
             } catch (e) {
               console.error("Timeline init error:", e);
+              container.innerHTML = '<p style="color: red; padding: 1rem;">Timeline failed to load: ' + e.message + '</p>';
             }
           });
         }
-        document.addEventListener("nav", initTimelines);
+        document.addEventListener("nav", function() { setTimeout(initTimelines, 100); });
         if (document.readyState === "complete") { initTimelines(); }
         else { window.addEventListener("load", initTimelines); }
       `
 
       return {
         css: [
-          { content: "https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" },
+          { content: "https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css", spaPreserve: true },
         ],
         js: [
           {
             src: "https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js",
             loadTime: "beforeDOMReady",
             contentType: "external",
+            spaPreserve: true,
           },
           {
             loadTime: "afterDOMReady",
             contentType: "inline",
             script: initScript,
+            spaPreserve: true,
           },
         ],
       }

@@ -57,6 +57,10 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      // Leaflet and Timeline must come BEFORE SyntaxHighlighting
+      // so they can process their code blocks before syntax highlighting transforms them
+      Plugin.Leaflet(),
+      Plugin.Timeline(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -70,8 +74,6 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.Leaflet(),
-      Plugin.Timeline(),
     ],
     filters: [],
     emitters: [
