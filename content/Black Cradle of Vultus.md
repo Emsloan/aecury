@@ -13,3 +13,11 @@ An ancient First Race era artifact that contains [[Vultus the Inquisitive]]. If 
 The true nature of the Cradle has been lost to time. The last people who knew of the darkness within tried to destroy it. Unsuccessful, they split it into 3 parts. Vault, Lock, and Key. These parts have been scattered. Over time, the legends surrounding the artifact have morphed.
 
 It is now known as the [[Fount of Truth]].
+
+## Connection to Akran
+
+From Microscope session "Rise and Fall of the Dwarves of Akran":
+
+> "Enzo offers use of the Cradle of Vultus if the gnomes promise to destroy the Bottomless Hoard."
+
+*Note: Enzo Cabral, Merchant King of the Emerald Pass, possessed or had access to the Cradle.*
