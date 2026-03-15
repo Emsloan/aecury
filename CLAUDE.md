@@ -56,4 +56,28 @@ Use `[[wikilinks]]` for internal links.
 
 ## Custom Plugins
 
-- `quartz/plugins/transformers/leaflet.ts` - Leaflet map support via ```leaflet code blocks
+### Leaflet Maps
+`quartz/plugins/transformers/leaflet.ts` - Interactive maps via ```leaflet code blocks
+
+```leaflet
+lat: 40
+lng: -100
+zoom: 4
+markers:
+- [40.7, -74.0, "New York", "/Article-Link"]
+```
+
+### Timeline.js
+`quartz/plugins/transformers/timeline.ts` - Interactive timelines via ```timeline code blocks
+
+```timeline
+title: "Timeline Title"
+events:
+- year: -5000
+  headline: "Event Name"
+  text: "Description"
+  group: "Era Name"
+- year: -4500
+  headline: "Another Event"
+  text: "More description"
+```
