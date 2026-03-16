@@ -23,6 +23,31 @@ When AI contributes to articles, mark it clearly:
 
 Readers should always know what's canonical vs AI-contributed.
 
+## Image Attribution - REQUIRED
+
+All images need metadata tracking:
+
+1. **Artist attribution**: Credit the artist/source
+2. **AI-generated images**: Mark with:
+   - Model used (DALL-E, Midjourney, Stable Diffusion, etc.)
+   - Prompt (if available)
+   - Date generated
+   - Follow NYT/NPR AI image labeling standards
+3. **Found art** (for characters/monsters/locations): Credit source, note if used as reference
+
+Suggested frontmatter for articles with images:
+```yaml
+images:
+  - file: "image.jpg"
+    artist: "Artist Name"
+    source: "ArtStation/DeviantArt/etc"
+    ai_generated: false
+  - file: "ai-portrait.png"
+    ai_generated: true
+    model: "Midjourney v6"
+    prompt: "fantasy elf warrior..."
+```
+
 ## Lore Handling - CRITICAL
 
 **Never speculate or invent lore.** When working with Aecury worldbuilding content:

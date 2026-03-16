@@ -1,0 +1,305 @@
+/* Toolbar Icons */
+.sceditor-toolbar .sceditor-button-bold::before {
+  content: "\f032";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Italic */
+.sceditor-toolbar .sceditor-button-italic::before {
+  content: "\f033";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Underline */
+.sceditor-toolbar .sceditor-button-underline::before {
+  content: "\f0cd";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Strikethrough */
+.sceditor-toolbar .sceditor-button-strike::before {
+  content: "\f0cc";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Superscript */
+.sceditor-toolbar .sceditor-button-superscript::before {
+  content: "\f12b";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Subscript */
+.sceditor-toolbar .sceditor-button-subscript::before {
+  content: "\f12c";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Justify: Left */
+.sceditor-toolbar .sceditor-button-left::before {
+  content: "\f036";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Justify: Center */
+.sceditor-toolbar .sceditor-button-center::before {
+  content: "\f037";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Justify: Right */
+.sceditor-toolbar .sceditor-button-right::before {
+  content: "\f038";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Justify: Block */
+.sceditor-toolbar .sceditor-button-justify::before {
+  content: "\f039";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Font: Style */
+.sceditor-toolbar .sceditor-button-font::before {
+  content: "\f893";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Font: Size */
+.sceditor-toolbar .sceditor-button-size::before {
+  content: "\f894";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Font: Color */
+.sceditor-toolbar .sceditor-button-color::before {
+  content: "\f043";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Font: Remove Format */
+.sceditor-toolbar .sceditor-button-removeformat::before {
+  content: "\f87d";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Clipboard: Cut */
+.sceditor-toolbar .sceditor-button-cut::before {
+  content: "\f0c4";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Clipboard: Copy */
+.sceditor-toolbar .sceditor-button-copy::before {
+  content: "\f0c5";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Clipboard: Paste */
+.sceditor-toolbar .sceditor-button-pastetext::before {
+  content: "\f0ea";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* List: Unordered */
+.sceditor-toolbar .sceditor-button-bulletlist::before {
+  content: "\f0ca";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* List: Ordered */
+.sceditor-toolbar .sceditor-button-orderedlist::before {
+  content: "\f0cb";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Indent: Add */
+.sceditor-toolbar .sceditor-button-indent::before {
+  content: "\f03c";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Indent: Remove */
+.sceditor-toolbar .sceditor-button-outdent::before {
+  content: "\f03b";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Table */
+.sceditor-toolbar .sceditor-button-table::before {
+  content: "\f0ce";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Code */
+.sceditor-toolbar .sceditor-button-code::before {
+  content: "\f121";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Quote */
+.sceditor-toolbar .sceditor-button-quote::before {
+  content: "\f10d";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Break */
+.sceditor-toolbar .sceditor-button-br::before {
+  content: "\f149";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+  
+}
+.sceditor-toolbar .sceditor-button-br {
+  transform: rotateZ(90deg);
+}
+/* KeyVal */
+.sceditor-toolbar .sceditor-button-keyval::before {
+  content: "\f6a6";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Horizontal Rule */
+.sceditor-toolbar .sceditor-button-horizontalrule::before {
+  content: "\f86c";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Image */
+.sceditor-toolbar .sceditor-button-image::before {
+  content: "\f03e";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Link */
+.sceditor-toolbar .sceditor-button-link::before {
+  content: "\f0c1";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Unlink */
+.sceditor-toolbar .sceditor-button-unlink::before {
+  content: "\f127";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Emoticon */
+.sceditor-toolbar .sceditor-button-emoticon::before {
+  content: "\f118";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Youtube */
+.sceditor-toolbar .sceditor-button-youtube::before {
+  font-family: "Font Awesome 6 Brands" !important;
+  content: "\f167";
+  font-weight: 300;
+  color: rgb(103, 103, 108);
+}
+/* Spotify */
+.sceditor-toolbar .sceditor-button-spotify::before {
+  font-family: "Font Awesome 6 Brands" !important;
+  content: "\f1bc";
+  font-weight: 300;
+  color: rgb(103, 103, 108);
+}
+/* Soundcloud */
+.sceditor-toolbar .sceditor-button-soundcloud::before {
+  font-family: "Font Awesome 6 Brands" !important;
+  content: "\f1be";
+  font-weight: 300;
+  color: rgb(103, 103, 108);
+}
+/* Date */
+.sceditor-toolbar .sceditor-button-date::before {
+  content: "\f271";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Time */
+.sceditor-toolbar .sceditor-button-time::before {
+  content: "\f017";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Paragraph: LTR */
+.sceditor-toolbar .sceditor-button-ltr::before {
+  content: "\f1dd";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Paragraph: RTL */
+.sceditor-toolbar .sceditor-button-rtl::before {
+  content: "\f878";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Print */
+.sceditor-toolbar .sceditor-button-print::before {
+  content: "\f02f";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Fullscreen */
+.sceditor-toolbar .sceditor-button-maximize::before {
+  content: "\f31d";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* H1 */
+.sceditor-toolbar .sceditor-button-h1::before {
+  content: "\f313";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* H2 */
+.sceditor-toolbar .sceditor-button-h2::before {
+  content: "\f314";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* H3 */
+.sceditor-toolbar .sceditor-button-h3::before {
+  content: "\f315";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* H4 */
+.sceditor-toolbar .sceditor-button-h4::before {
+  content: "\f86a";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Paragraph */
+.sceditor-toolbar .sceditor-button-p::before {
+  content: "\f1dd";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Dropcap */
+.sceditor-toolbar .sceditor-button-dc::before {
+  content: "\f0dd";
+  top: -0.25rem;
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+/* Small */
+.sceditor-toolbar .sceditor-button-small::before {
+  content: "\f339";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+.sceditor-toolbar .sceditor-button-source::before {
+  content: "\f120";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+.sceditor-toolbar .sceditor-button-toggleToolbar::before {
+  content: "\f142";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}
+.sceditor-toolbar .sceditor-button-aloud::before {
+  content: "\f675";
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 300;
+}

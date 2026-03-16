@@ -1,0 +1,52 @@
+.overlay-widget {
+    position: absolute;
+    box-shadow: 4px 4px 8px 0px #00000024;
+    overflow: hidden;
+    border: 1px #9d9fa0 solid;
+    background: #ececec;
+}
+
+.widget-header {
+    background: #2f4050;
+    padding: 7px 10px;
+    color: white;
+}
+
+.widget-content {
+    height: 100%;
+    overflow: auto;
+}
+
+
+.overlay-widget-previewer{
+    bottom: 100px;
+    right: 50px;
+    z-index: 5000;
+    width: 600px;
+    min-width: 450px;
+    max-width: 90%;
+    height: 500px;
+
+}
+
+    .overlay-widget-previewer-search {
+        border: none;
+    }
+
+    .overlay-widget-previewer .athena-article-link-load  {
+        display: none;
+    }
+
+    .overlay-widget-previewer .ui-resizable-handle {
+        z-index: 5001 !important;
+    }
+
+.overlay-widget-referencer{
+    top: 100px;
+    left: 50px;
+    z-index: 5000;
+    width: 500px;
+    min-width: 450px;
+    max-width: 90%;
+    height: 300px;
+}

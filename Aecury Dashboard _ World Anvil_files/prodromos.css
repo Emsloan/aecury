@@ -1,0 +1,112 @@
+:root {
+    --prodromos-top-margin: 40px;
+    --prodromos-top-margin-extended: 45px;
+}
+
+#page-wrapper {
+    padding-top: 0px !important;
+}
+
+.wrapper-header {
+    min-height: 125px;
+    max-height: 125px;
+}
+
+.wrapper-header h1 {
+    margin-top: 55px;
+}
+
+/* Page specific Header Margin top */
+/* Athena */
+div#athena-wrapper {
+    margin-top: var(--prodromos-top-margin);
+}
+/* Apollo */
+div.apollo-container  {
+    margin-top: var(--prodromos-top-margin);
+}
+/* Explorer */
+.explore-container {
+    /* margin-top: var(--prodromos-top-margin-extended); */
+}
+.explore-bar {
+    margin-top: var(--prodromos-top-margin-extended);
+}
+
+/* Dashboard */
+#world-anvil-dashboard {
+    margin-top: var(--prodromos-top-margin);
+}
+
+/* Notebook */
+#notebook-container {
+    margin-top: var(--prodromos-top-margin);
+    margin-left: 20px;
+}
+
+/* RPG Systems List */
+#rpg-systems-list {
+    margin-top: var(--prodromos-top-margin);
+}
+
+/* Competitions and Challenges  */
+#competitions-and-challenges {
+    margin-top: var(--prodromos-top-margin);
+}
+/* Random Generators */
+#random-generators {
+    margin-top: var(--prodromos-top-margin);
+}
+
+/* Character */
+#character-container {
+    margin-top: var(--prodromos-top-margin);
+}
+
+/* Map */
+#map-container {
+    margin-top: 0px;
+}
+
+/* Party (Under Character) */
+#party-container {
+    margin-top: var(--prodromos-top-margin);
+}
+
+.campaign-menu-container {
+    margin-top: var(--prodromos-top-margin);
+}
+
+.player-characters-container {
+    margin-top: var(--prodromos-top-margin);
+}
+
+.shield-wrapper {
+    margin-top: var(--prodromos-top-margin);
+}
+
+.user-post-wrapper {
+    margin-top: var(--prodromos-top-margin); 
+}
+
+/* Manuscripts */
+.homer-manuscript-wrapper {
+    margin-top: var(--prodromos-top-margin-extended);
+    margin-left: 15px;
+}
+    .homer-manuscript-wrapper a.navbar-minimalize.btn.btn-primary.btn-xs {
+        display: none;
+    }
+
+/* Fix for Previously Minified sidebar (old version of sidebar */
+body.fixed-sidebar.mini-navbar #page-wrapper,
+body.body-small.fixed-sidebar.mini-navbar #page-wrapper
+{
+    margin-left: 55px !important;
+}
+
+
+/* Fix for maximize version of SCEDITOR (WYSIWYG */
+.sceditor-maximize {
+    padding-top: var(--prodromos-top-margin) !important;
+}

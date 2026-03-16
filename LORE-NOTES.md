@@ -109,8 +109,28 @@ Casual lore drops from chat. Process into articles later.
 
 ### Export/Scrape Opportunities
 
-- World Anvil has pinned maps with markers (could export to Leaflet)
-- World Anvil has timelines (could export to Timeline.js)
+- World Anvil has pinned maps with markers (could export to Leaflet) ✓ DONE
+- World Anvil has timelines (could export to Timeline.js) - 5 pages downloaded
 - D&D Beyond character sheets for character info
+
+---
+
+## Pending Reviews
+
+### Dwarven Timeline (from Microscope PDF)
+The "Timeline - Dwarves of Akran.md" was created from the Microscope session PDF. This was an **unstructured source** - needs human review to verify:
+- Event accuracy
+- Year assignments
+- Connections between events
+- Any speculation that crept in
+
+### Draw.io God Hierarchy
+The Draw.io export contains pantheon relationships that need review:
+- The Spire structure (Big 4)
+- Preternaturals hierarchy
+- Intrinsics/Primordials relationships
+- Any connections that need verification
+
+**Files affected**: The One.md, The Spire.md, articles created from Draw.io
 
 ---
