@@ -35,14 +35,24 @@ User stated:
 - Mimid eventually becomes one of Ao's "big 4" alongside Mystra, Bahamut, Asmodeus
 - Mimid goes under different names
 
+## Answered Questions
+
+1. **How does Mimid transition from Intrinsic to one of Ao's "big 4"?**
+   → After Ao glassed Aecury, Ao brought Asmodeus, Mystra, and Bahamut from other realms and "upgraded" Mimid to be part of the Big 4. Mimid is still an Intrinsic.
+
+2. **What are Mimid's other names/aspects?**
+   → Mimid the Willful, Mimid the Wanderer, (Maverick), **Mirrored One**
+
+4. **Does Mimid occupy a position in The Spire?**
+   → Yes, as the Mirrored One (Chaos) alongside Bahamut (LG), Mystra (LN), Asmodeus (LE)
+
+5. **What is the connection between Mimid's sacrifice and the Mirrored One?**
+   → They are the same entity. Mirrored One = Mimid.
+
 ## Open Questions
 
-1. How does Mimid transition from Intrinsic to one of Ao's "big 4"?
-2. What are Mimid's other names/aspects?
-3. Is "Maverick" a title or a hint at Mimid's later role?
-4. Does Mimid occupy a position in The Spire?
-5. What is the connection between Mimid's sacrifice and the Mirrored One (both associated with "will/choice")?
-6. Did Mimid actually "fade" or transform into something else?
+3. Is "Maverick" a title or a hint at Mimid's later role? (User unsure)
+6. Did Mimid actually "fade" or transform? What happened between the sacrifice and becoming Mirrored One?
 
 ## Articles to Update When Confirmed
 

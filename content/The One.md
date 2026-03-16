@@ -1,10 +1,13 @@
 ---
 title: "The One"
-type: Person
-tags: [person, ancient, first-race, mysterious]
+type: Deity
+tags: [deity, ancient, first-race]
+aliases: [Alasadriel]
 ---
 
-A titan-like figure depicted in murals, associated with [[The First Race]].
+**The One** is **Alasadriel**, a god created by [[The First Race]] (the elves) through apotheosis.
+
+A titan-like figure depicted in murals.
 
 ## From Orishahn's Guide - Mural Description
 
@@ -20,8 +23,9 @@ A titan-like figure depicted in murals, associated with [[The First Race]].
 
 > "the titan-like form of the One holding the sphere and the ring is nowhere to be found"
 
-*Potential expansion: Who was The One? Connection to the 8 star gems? What was the sphere and ring?*
+*Potential expansion: What do the 8 star gems represent? What was the sphere and ring?*
 
 ## Related
 
 - [[The First Race]]
+- [[Ao]]

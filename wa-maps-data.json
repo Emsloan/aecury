@@ -1,0 +1,528 @@
+{
+  "maps": [
+    {
+      "file": "Aecury Dashboard _ World Anvil.htm",
+      "name": "Akran",
+      "imageUrl": "/uploads/maps/57137c6af618df98d703ca6c6f752169.jpg",
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          3000,
+          6000
+        ]
+      ],
+      "markers": [
+        {
+          "name": "Elkengrounds",
+          "x": 2346,
+          "y": 896
+        },
+        {
+          "name": "Harkinhold",
+          "x": 1655,
+          "y": 1050
+        },
+        {
+          "name": "River Side",
+          "x": 4162,
+          "y": 2650
+        },
+        {
+          "name": "Bouldermeadow",
+          "x": 1816,
+          "y": 1323
+        },
+        {
+          "name": "Skystinger's",
+          "x": 4501,
+          "y": 1932
+        },
+        {
+          "name": "Forgefall",
+          "x": 3104,
+          "y": 1216
+        },
+        {
+          "name": "Rusted Ruins",
+          "x": 4924,
+          "y": 1390
+        },
+        {
+          "name": "Stridoreka River",
+          "x": 4592,
+          "y": 2070
+        },
+        {
+          "name": "Mercurial Spring",
+          "x": 5094,
+          "y": 1000
+        },
+        {
+          "name": "EverMound",
+          "x": 2061,
+          "y": 936
+        },
+        {
+          "name": "Stridobank",
+          "x": 4920,
+          "y": 1800
+        },
+        {
+          "name": "Greenreach",
+          "x": 4392,
+          "y": 1738
+        },
+        {
+          "name": "Bridgenaulde",
+          "x": 2499,
+          "y": 1241
+        },
+        {
+          "name": "Mossydale",
+          "x": 2125,
+          "y": 1899
+        },
+        {
+          "name": "Stone Abbey",
+          "x": 1293,
+          "y": 1316
+        },
+        {
+          "name": "Riverwatch",
+          "x": 4377,
+          "y": 1577
+        },
+        {
+          "name": "Abydos",
+          "x": 5344,
+          "y": 1408
+        },
+        {
+          "name": "Mawa",
+          "x": 4550,
+          "y": 1279
+        },
+        {
+          "name": "Piketon",
+          "x": 2197,
+          "y": 1323
+        },
+        {
+          "name": "Timberfell",
+          "x": 3012,
+          "y": 1464
+        }
+      ]
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil10.htm",
+      "name": "Raft",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1645,
+          2048
+        ]
+      ],
+      "markers": []
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil11.htm",
+      "name": "Whaler's Cove",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          3189,
+          2630
+        ]
+      ],
+      "markers": []
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil12.htm",
+      "name": "Zavruthar",
+      "imageUrl": "/uploads/maps/8c9e03fb2eb9d2f5765b0904ba23a576.jpg",
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          4915,
+          7876
+        ]
+      ],
+      "markers": []
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil13.htm",
+      "name": "Zumarud",
+      "imageUrl": "/uploads/maps/4f5f1593d2adaa19081e973a8f1b1966.jpg",
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          3600,
+          4200
+        ]
+      ],
+      "markers": [
+        {
+          "name": "Ruined Temple",
+          "x": 1934,
+          "y": 3250
+        },
+        {
+          "name": "Ruins",
+          "x": 1987,
+          "y": 3188
+        },
+        {
+          "name": "Ancient Ruins",
+          "x": 3036,
+          "y": 1067
+        },
+        {
+          "name": "The Beasthold",
+          "x": 1328,
+          "y": 2564
+        },
+        {
+          "name": "Jaws of Sebek",
+          "x": 1250,
+          "y": 2549
+        },
+        {
+          "name": "Unsunken Ruins",
+          "x": 2056,
+          "y": 2792
+        },
+        {
+          "name": "Ancient Ruins",
+          "x": 684,
+          "y": 2247
+        },
+        {
+          "name": "Whaler's Cove",
+          "x": 2141,
+          "y": 3151
+        },
+        {
+          "name": "Ancient Ruins",
+          "x": 1345,
+          "y": 3115
+        },
+        {
+          "name": "Oroboros",
+          "x": 2063,
+          "y": 2790
+        },
+        {
+          "name": "Ancient Ruins",
+          "x": 1484,
+          "y": 1752
+        },
+        {
+          "name": "Ancient Ruins",
+          "x": 2519,
+          "y": 1163
+        },
+        {
+          "name": "North Point",
+          "x": 2008,
+          "y": 3384
+        },
+        {
+          "name": "Iron Bay",
+          "x": 1800,
+          "y": 3195
+        },
+        {
+          "name": "Wahasha",
+          "x": 1322,
+          "y": 2561
+        },
+        {
+          "name": "Ancient Ruins",
+          "x": 968,
+          "y": 2653
+        }
+      ]
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil2.htm",
+      "name": "EverMound",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          2612,
+          3210
+        ]
+      ],
+      "markers": [
+        {
+          "name": "Westgate",
+          "x": 703,
+          "y": 1768
+        }
+      ]
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil3.htm",
+      "name": "Iron Bay",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          2701,
+          3104
+        ]
+      ],
+      "markers": [
+        {
+          "name": "Clover's Trust",
+          "x": 1868,
+          "y": 1783
+        },
+        {
+          "name": "Harro's",
+          "x": 2406,
+          "y": 2074
+        },
+        {
+          "name": "Bruddick's Armory",
+          "x": 2626,
+          "y": 1465
+        },
+        {
+          "name": "A Wink and a Cup",
+          "x": 1231,
+          "y": 1532
+        },
+        {
+          "name": "Karn Steelbraid",
+          "x": 866,
+          "y": 1848
+        },
+        {
+          "name": "Azuba Steelbraid",
+          "x": 820,
+          "y": 1868
+        },
+        {
+          "name": "Flintwhirl Staves",
+          "x": 1881,
+          "y": 1007
+        },
+        {
+          "name": "Wisym's Wares",
+          "x": 1600,
+          "y": 1849
+        },
+        {
+          "name": "Needle 'n Thread",
+          "x": 2037,
+          "y": 1066
+        },
+        {
+          "name": "Wild Woods Lodge",
+          "x": 961,
+          "y": 1554
+        },
+        {
+          "name": "Dew Benders Jester",
+          "x": 1725,
+          "y": 2018
+        },
+        {
+          "name": "Oliver Estate",
+          "x": 2121,
+          "y": 1861
+        },
+        {
+          "name": "Tanerdhir's Gems",
+          "x": 1892,
+          "y": 1094
+        }
+      ]
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil4.htm",
+      "name": "Kravral",
+      "imageUrl": "/uploads/maps/f2bc2e9e7cb91ccf85b13e5d6fd042b9.jpg",
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          8192,
+          7812
+        ]
+      ],
+      "markers": [
+        {
+          "name": "Raft",
+          "x": 4130,
+          "y": 5044
+        },
+        {
+          "name": "Shambling Woods",
+          "x": 4098,
+          "y": 5239
+        },
+        {
+          "name": "Cloud Giant's Tower",
+          "x": 3962,
+          "y": 4878
+        },
+        {
+          "name": "Titan's Rest",
+          "x": 4030,
+          "y": 5340
+        }
+      ]
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil5.htm",
+      "name": "Kravral - Frontier Region",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          2048,
+          1838
+        ]
+      ],
+      "markers": [
+        {
+          "name": "Titan's Rest",
+          "x": 782,
+          "y": 1803
+        },
+        {
+          "name": "Raft",
+          "x": 951,
+          "y": 1606
+        },
+        {
+          "name": "Ruins",
+          "x": 754,
+          "y": 1394
+        },
+        {
+          "name": "Mysterious Statue",
+          "x": 897,
+          "y": 1567
+        },
+        {
+          "name": "Watering Hole",
+          "x": 919,
+          "y": 1507
+        },
+        {
+          "name": "Outpost 5",
+          "x": 823,
+          "y": 1478
+        },
+        {
+          "name": "Reserve",
+          "x": 617,
+          "y": 1270
+        },
+        {
+          "name": "Cloud Giant Tower",
+          "x": 830,
+          "y": 1569
+        }
+      ]
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil6.htm",
+      "name": "Lungs",
+      "imageUrl": "/uploads/maps/c532ea6578f86a4eeece43e656d15940.jpg",
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          6008,
+          5312
+        ]
+      ],
+      "markers": []
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil7.htm",
+      "name": "Malna",
+      "imageUrl": "/uploads/maps/962184faf1f1028f73fbd6f0eea7d85c.jpg",
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          8192,
+          6599
+        ]
+      ],
+      "markers": []
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil8.htm",
+      "name": "NorthPoint",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          2806,
+          2989
+        ]
+      ],
+      "markers": []
+    },
+    {
+      "file": "Aecury Dashboard _ World Anvil9.htm",
+      "name": "Oliver Estate",
+      "imageUrl": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1330,
+          1610
+        ]
+      ],
+      "markers": []
+    }
+  ]
+}

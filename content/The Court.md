@@ -1,10 +1,12 @@
 ---
 title: "The Court"
 type: Organization
-tags: [organization, ancient, mysterious]
+tags: [organization, ancient, first-race, yellow-wastes]
 ---
 
-A group of nobles mentioned in Orishahn's Guide, apparently imprisoned somewhere.
+Remaining original elves ([[The First Race]]) who came to the [[Yellow Wastes]] after [[Ao]]'s glassing, now long warped and twisted by the nature of [[Mimid the Willful|Mimid]]/[[Mirrored One|Mirrored Ones]]/Yellow Kings/[[Yellow Wastes]].
+
+Imprisoned in the Yellow Wastes. Characters adapted from MCDM books.
 
 ## Members
 
@@ -32,8 +34,15 @@ The Queen apparently defaced some of the murals.
 
 > "Do you know what tentacle-faces plan is? Aside from forcing our hands to murder of course."
 
-*Potential expansion: Where is the Court imprisoned? Who is "tentacle-face"? Who is the narrator?*
+**"Tentacle-face"** refers to [[Luzgidall]] or another member of the [[Onyx Gaze]] - a mind flayer group that lived/ruled in the Yellow Wastes. Luzgidall (the final one) was killed by [[Ivory Masquerade]].
+
+*Potential expansion: Who is the narrator? What is their relationship to the Court?*
 
 ## Related
 
 - [[The First Race]]
+- [[Yellow Wastes]]
+- [[Mimid the Willful]]
+- [[Onyx Gaze]]
+- [[Luzgidall]]
+- [[Ivory Masquerade]]

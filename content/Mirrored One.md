@@ -1,16 +1,19 @@
 ---
 title: "Mirrored One"
 type: Deity
-tags: [deity, divine, chaos]
+tags: [deity, divine, chaos, intrinsic]
+aliases: [Mimid, Mimid the Willful, Mimid the Wanderer]
 ---
 
-**Mirrored One (Chaos)** - from Draw.io hierarchy.
+**Mirrored One** is [[Mimid the Willful]], the youngest [[Intrinsics|Intrinsic]], upgraded by [[Ao]] to be one of the Big 4 Aecury pantheon chiefs after the glassing.
 
-Listed among the deities in [[The Spire]] alongside [[Bahamut]], [[Mystra]], and [[Asmodeus]].
+Represents Chaos in [[The Spire]] alongside [[Bahamut]] (Lawful Good), [[Mystra]] (Lawful Neutral), and [[Asmodeus]] (Lawful Evil).
 
-*Potential expansion: What is the Mirrored One's nature/domain?*
+Domain: [[Yellow Wastes]]
 
 ## Related
 
+- [[Mimid the Willful]]
 - [[The Spire]]
 - [[Ao]]
+- [[Yellow Wastes]]

@@ -1,10 +1,11 @@
 ---
 title: "The First Race"
 type: Species
-tags: [species, ancient, first-race]
+tags: [species, ancient, first-race, elf]
+aliases: [The Elves, First Race]
 ---
 
-Ancient civilization referenced in multiple sources. Appears to be the "long-eared humanoids" depicted in murals.
+**The First Race** are the **elves** - an ancient civilization depicted as "long-eared humanoids" in murals. They created [[The One|Alasadriel]] through apotheosis.
 
 ## From Orishahn's Guide - Mural Descriptions
 
@@ -16,7 +17,9 @@ Ancient civilization referenced in multiple sources. Appears to be the "long-ear
 
 > "After a 5 minute walk still moving down with more murals moving through the cities and seeing strange structures and machines dotting the streets and skies, the murals abruptly change. Now the bottom of the murals are always clouds, as though the people in them have ascended from the earth and show them dwelling amongst mountain peaks."
 
-## The Fall
+## The Fall (Ao's Glassing)
+
+[[Ao]] glassed the planet. The "hand coming from the stars" in the murals refers to this event. Some structures were "Ao-proof" which displeased Ao. Not all elves were killed - some were transferred to the [[Yellow Wastes]], [[Mimid the Willful|Mimid]]'s domain.
 
 > "the murals that aren't defaced show a scattered people, and an ambiguous form like a hand coming from the stars and picking up the very mountains that the long-eared people had congregated in"
 
@@ -28,10 +31,15 @@ From [[Vultus the Inquisitive]]:
 
 > "Eons ago the First Race sought total dominion over Aecury. To this end, they conquered each of the Intrinsics, manipulating each in service of their own ends."
 
-*Potential expansion: Who were the First Race? Connection to elves? What was "the hand coming from the stars"?*
+*Potential expansion: What happened to the elves after the glassing? Connection to The Court?*
 
 ## Related
 
+- [[The One]] (Alasadriel - god they created)
+- [[Ao]] (glassed the planet)
+- [[Yellow Wastes]] (refuge for survivors)
+- [[Mimid the Willful]] (made pact with elves)
+- [[The Court]] (warped survivors?)
 - [[Vultus the Inquisitive]]
 - [[Black Cradle of Vultus]]
 - [[Intrinsics]]
