@@ -25,7 +25,10 @@ export const Leaflet: QuartzTransformerPlugin<Partial<LeafletOptions>> = (userOp
     htmlPlugins() {
       return [
         () => {
-          return (tree: Root) => {
+          return (tree: Root, file: any) => {
+            const rawSlug = file?.data?.slug ? String(file.data.slug) : "page"
+            const safeSlug = rawSlug.toLowerCase().replace(/[^a-z0-9_-]+/g, "-")
+            let mapIndex = 0
             visit(tree, "element", (node: Element, index, parent) => {
               // Look for code blocks with language "leaflet"
               if (
@@ -41,7 +44,8 @@ export const Leaflet: QuartzTransformerPlugin<Partial<LeafletOptions>> = (userOp
                   const content = codeElement.children?.[0]
                   if (content && content.type === "text") {
                     const config = parseLeafletConfig(content.value)
-                    const mapId = `leaflet-map-${Math.random().toString(36).substr(2, 9)}`
+                    mapIndex += 1
+                    const mapId = `leaflet-map-${safeSlug}-${mapIndex}`
 
                     // Replace code block with map container
                     const mapDiv: Element = {

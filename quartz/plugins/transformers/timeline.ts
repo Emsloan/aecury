@@ -18,7 +18,10 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
     htmlPlugins() {
       return [
         () => {
-          return (tree: Root) => {
+          return (tree: Root, file: any) => {
+            const rawSlug = file?.data?.slug ? String(file.data.slug) : "page"
+            const safeSlug = rawSlug.toLowerCase().replace(/[^a-z0-9_-]+/g, "-")
+            let timelineIndex = 0
             visit(tree, "element", (node: Element, index, parent) => {
               // Look for code blocks with language "timeline"
               if (
@@ -33,7 +36,8 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
                   const content = codeElement.children?.[0]
                   if (content && content.type === "text") {
                     const config = parseTimelineConfig(content.value)
-                    const timelineId = `timeline-${Math.random().toString(36).substr(2, 9)}`
+                    timelineIndex += 1
+                    const timelineId = `timeline-${safeSlug}-${timelineIndex}`
 
                     // Convert to TimelineJS JSON format
                     const timelineData: Record<string, unknown> = {
@@ -103,38 +107,54 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
     },
     externalResources() {
       const initScript = `
-        function initTimelines() {
-          const containers = document.querySelectorAll(".timeline-container");
-          containers.forEach((container) => {
-            if (container.dataset.initialized === "true") return;
+        (function () {
+          let retryCount = 0;
+          const MAX_RETRIES = 25; // ~5s worst case at 200ms
+          const RETRY_MS = 200;
 
+          function tryInitTimelines() {
+            const containers = document.querySelectorAll(".timeline-container");
+            if (!containers.length) return;
+
+            // TimelineJS script can load after this inline script; retry quietly a few times.
             if (typeof TL === "undefined") {
-              console.warn("TimelineJS not loaded yet, retrying...");
-              setTimeout(initTimelines, 200);
+              if (retryCount++ < MAX_RETRIES) {
+                setTimeout(tryInitTimelines, RETRY_MS);
+              }
               return;
             }
 
-            try {
-              const data = JSON.parse(container.dataset.timeline);
-              console.log("Timeline data:", data);
-              const timeline = new TL.Timeline(container.id, data, {
-                hash_bookmark: false,
-                initial_zoom: 2,
-                timenav_height_percentage: 30,
-                scale_factor: 2,
-                start_at_end: false,
-              });
-              container.dataset.initialized = "true";
-              console.log("Timeline initialized:", container.id);
-            } catch (e) {
-              console.error("Timeline init error:", e);
-              container.innerHTML = '<p style="color: red; padding: 1rem;">Timeline failed to load: ' + e.message + '</p>';
-            }
+            containers.forEach((container) => {
+              if (container.dataset.initialized === "true") return;
+              try {
+                const dataRaw = container.dataset.timeline || "{}";
+                const data = JSON.parse(dataRaw);
+                new TL.Timeline(container.id, data, {
+                  hash_bookmark: false,
+                  initial_zoom: 2,
+                  timenav_height_percentage: 30,
+                  scale_factor: 2,
+                  start_at_end: false,
+                });
+                container.dataset.initialized = "true";
+              } catch (e) {
+                const msg = (e && e.message) ? e.message : String(e);
+                container.innerHTML =
+                  '<p style="color: red; padding: 1rem;">Timeline failed to load: ' + msg + "</p>";
+              }
+            });
+          }
+
+          document.addEventListener("nav", function () {
+            setTimeout(tryInitTimelines, 50);
           });
-        }
-        document.addEventListener("nav", function() { setTimeout(initTimelines, 100); });
-        if (document.readyState === "complete") { initTimelines(); }
-        else { window.addEventListener("load", initTimelines); }
+
+          if (document.readyState === "complete") {
+            tryInitTimelines();
+          } else {
+            window.addEventListener("load", tryInitTimelines);
+          }
+        })();
       `
 
       return {
