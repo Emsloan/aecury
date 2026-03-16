@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[Akran]].
 
 ```leaflet
-image: /maps/akran.jpg
+image: /aecury/maps/akran.jpg
 bounds: [[0,0], [3000,6000]]
 height: 600px
 markers:

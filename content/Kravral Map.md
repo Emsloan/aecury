@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[Kravral]].
 
 ```leaflet
-image: /maps/kravral.jpg
+image: /aecury/maps/kravral.jpg
 bounds: [[0,0], [8192,7812]]
 height: 600px
 markers:

@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[EverMound]].
 
 ```leaflet
-image: /maps/evermound.png
+image: /aecury/maps/evermound.png
 bounds: [[0,0], [2612,3210]]
 height: 600px
 markers:

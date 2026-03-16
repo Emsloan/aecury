@@ -7,7 +7,7 @@ tags: [map, world]
 Interactive map of [[Aecury]].
 
 ```leaflet
-image: /maps/aecury-world-map.jpg
+image: /aecury/maps/aecury-world-map.jpg
 bounds: [[0,0], [4608,8192]]
 height: 600px
 markers:

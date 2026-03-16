@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[Malna]].
 
 ```leaflet
-image: /maps/malna.jpg
+image: /aecury/maps/malna.jpg
 bounds: [[0,0], [8192,6599]]
 height: 600px
 markers:

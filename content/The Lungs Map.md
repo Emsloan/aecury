@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[The Lungs]].
 
 ```leaflet
-image: /maps/lungs.jpg
+image: /aecury/maps/lungs.jpg
 bounds: [[0,0], [6008,5312]]
 height: 600px
 markers:

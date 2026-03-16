@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[Zumarud]].
 
 ```leaflet
-image: /maps/zumarud.jpg
+image: /aecury/maps/zumarud.jpg
 bounds: [[0,0], [3600,4200]]
 height: 600px
 markers:

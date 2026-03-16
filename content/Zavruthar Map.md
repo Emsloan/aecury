@@ -7,7 +7,7 @@ tags: [map]
 Interactive map of [[Zavruthar]].
 
 ```leaflet
-image: /maps/zavruthar.jpg
+image: /aecury/maps/zavruthar.jpg
 bounds: [[0,0], [4915,7876]]
 height: 600px
 markers:
