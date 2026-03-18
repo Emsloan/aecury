@@ -9,7 +9,9 @@ type: Timeline
 title: "History of EverRealm Timeline"
 events:
 - year: 2438
-  headline: "Start of the Crimson Conflict Era beginning/end"
+  headline: "Start of the Crimson Conflict"
+  text: ""
 - year: 2985
-  headline: "The End of the Crimson Conflict Military action"
+  headline: "The End of the Crimson Conflict"
+  text: ""
 ```
