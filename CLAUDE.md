@@ -124,6 +124,38 @@ Based on testing (see `test-model-comparison.md`):
 - Use `apilookup` to prevent outdated training data issues
 - Conversation context flows between models seamlessly
 
+## Efficiency & Collaboration Ethos
+
+**Core Principle:** Treat the user as demanding upper management - get approval before burning tokens on uncertain work.
+
+### Token & Time Saving
+
+1. **Use Haiku for implementation** - Simple component creation, CSS styling, routine edits
+2. **Use subagents for exploration** - Don't waste Opus tokens reading files that can be delegated
+3. **Use PAL for validation** - Get second opinions on architecture before writing code
+4. **Ask rather than guess** - On design questions, clarify with user instead of making assumptions
+
+### User Checkpoints
+
+Loop the user in at key decision points BEFORE proceeding:
+
+| Checkpoint | What to Show | Why |
+|------------|-------------|-----|
+| After research/planning | Field list, approach options | Confirm direction before implementation |
+| After component skeleton | Basic structure, data flow | Confirm architecture before styling |
+| After styling draft | Live preview or description | Confirm visual approach |
+| Before major refactors | Proposed changes, tradeoffs | Get explicit approval |
+
+**Rule:** If uncertain about design direction → ASK. Don't burn tokens guessing.
+
+### Avoid Common Wastes
+
+- Don't over-engineer simple features
+- Don't add features not requested
+- Don't create abstractions for one-time operations
+- Don't guess at requirements - clarify first
+- Don't redo work - checkpoint early and often
+
 ## Source Data Structure
 
 ### World Anvil Articles

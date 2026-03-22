@@ -1,0 +1,38 @@
+---
+title: "Vallin Turen"
+slug: "vallin-turen-person"
+type: Person
+Parentbiological1: "[[Gadon Turen]]"
+Parentbiological2: "[[Pritra Bilrete]]"
+Familyorganization: "[[House Turen]]"
+draft: true
+wip: true
+---
+
+## Sidebarcontent
+
+
+
+## Firstname
+
+Vallin
+
+## Lastname
+
+Turen
+
+## Dob
+
+2439
+
+## Dod
+
+2758
+
+## Gender
+
+male
+
+## Ggmtype
+
+fodder

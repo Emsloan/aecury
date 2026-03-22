@@ -1,0 +1,34 @@
+---
+title: "Tohim Turen"
+slug: "tohim-turen-person"
+type: Person
+Parentbiological1: "[[Prinoa Turen]]"
+Parentbiological2: "[[Cormop Palebell]]"
+Familyorganization: "[[House Turen]]"
+draft: true
+wip: true
+---
+
+## Sidebarcontent
+
+
+
+## Firstname
+
+Tohim
+
+## Lastname
+
+Turen
+
+## Dob
+
+2782
+
+## Gender
+
+male
+
+## Ggmtype
+
+fodder

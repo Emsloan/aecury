@@ -159,7 +159,10 @@ export const Timeline: QuartzTransformerPlugin<Partial<TimelineOptions>> = (user
 
       return {
         css: [
-          { content: "https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css", spaPreserve: true },
+          {
+            content: "https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css",
+            spaPreserve: true,
+          },
         ],
         js: [
           {

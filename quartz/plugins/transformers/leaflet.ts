@@ -123,9 +123,7 @@ export const Leaflet: QuartzTransformerPlugin<Partial<LeafletOptions>> = (userOp
       `
 
       return {
-        css: [
-          { content: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" },
-        ],
+        css: [{ content: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" }],
         js: [
           {
             src: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
@@ -186,7 +184,9 @@ function parseLeafletConfig(content: string): LeafletConfig {
       inMarkers = true
     } else if (inMarkers && trimmed.startsWith("-")) {
       // Parse marker: - [lat, lng, "Label", "link"]
-      const markerMatch = trimmed.match(/^-\s*\[([-\d.]+),\s*([-\d.]+),\s*"([^"]+)"(?:,\s*"([^"]+)")?\]/)
+      const markerMatch = trimmed.match(
+        /^-\s*\[([-\d.]+),\s*([-\d.]+),\s*"([^"]+)"(?:,\s*"([^"]+)")?\]/,
+      )
       if (markerMatch) {
         currentMarkers.push({
           lat: parseFloat(markerMatch[1]),
