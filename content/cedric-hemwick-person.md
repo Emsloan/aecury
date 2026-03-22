@@ -2,6 +2,8 @@
 title: "Cedric Hemwick"
 slug: "cedric-hemwick-person"
 type: Person
+aliases:
+  - "Cedric Hemwick"
 draft: true
 wip: true
 ---

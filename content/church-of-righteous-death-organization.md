@@ -2,6 +2,8 @@
 title: "Church of Righteous Death"
 slug: "church-of-righteous-death-organization"
 type: Organization
+aliases:
+  - "Church of Righteous Death"
 Divines: "[[Kelemvor]]"
 Geographiclocation: "[[Amangrad]]"
 Parent: "[[Historian Syncretate]]"

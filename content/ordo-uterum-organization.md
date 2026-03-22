@@ -2,6 +2,8 @@
 title: "Ordo Uterum"
 slug: "ordo-uterum-organization"
 type: Organization
+aliases:
+  - "Ordo Uterum"
 Geographiclocation: "[[Oroboros]]"
 Parent: "[[Yuan-ti]]"
 Type: "[[Research, Council]]"

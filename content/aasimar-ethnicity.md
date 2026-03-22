@@ -2,6 +2,8 @@
 title: "Aasimar"
 slug: "aasimar-ethnicity"
 type: Ethnicity
+aliases:
+  - "Aasimar"
 Organizations:
   - "[[Anchors]]"
   - "[[Esprin Empire]]"

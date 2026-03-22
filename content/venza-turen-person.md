@@ -2,6 +2,8 @@
 title: "Venza Turen"
 slug: "venza-turen-person"
 type: Person
+aliases:
+  - "Venza Turen"
 Parentbiological1: "[[Vallin Turen]]"
 Parentbiological2: "[[Loridira Punggedesol]]"
 Familyorganization: "[[House Turen]]"

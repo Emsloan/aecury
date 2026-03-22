@@ -2,6 +2,8 @@
 title: "Pontiff Ascendi"
 slug: "pontiff-ascendi-rank"
 type: Rank
+aliases:
+  - "Pontiff Ascendi"
 Leaders: "[[Church of the Golden Sun]]"
 Relatedorganizations:
   - "[[Historian Syncretate]]"

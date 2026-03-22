@@ -2,6 +2,8 @@
 title: "Quaziver Turen"
 slug: "quaziver-turen-person"
 type: Person
+aliases:
+  - "Quaziver Turen"
 Parentbiological1: "[[Inanove Turen]]"
 Parentbiological2: "[[Valrick Nelrar]]"
 Familyorganization: "[[House Turen]]"

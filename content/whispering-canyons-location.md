@@ -2,6 +2,8 @@
 title: "Whispering Canyons"
 slug: "whispering-canyons-location"
 type: Location
+aliases:
+  - "Whispering Canyons"
 People: "[[Diana Klyk]]"
 Children: "[[Stridobank]]"
 Includedorganizations: "[[Sandswimmers]]"

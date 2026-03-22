@@ -2,6 +2,8 @@
 title: "Alnan Boppotenir"
 slug: "alnan-boppotenir-person"
 type: Person
+aliases:
+  - "Alnan Boppotenir"
 draft: true
 wip: true
 ---

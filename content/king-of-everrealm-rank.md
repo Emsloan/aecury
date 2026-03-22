@@ -2,6 +2,8 @@
 title: "King of EverRealm"
 slug: "king-of-everrealm-rank"
 type: Rank
+aliases:
+  - "King of EverRealm"
 Leaders:
   - "[[House Gilcrest]]"
   - "[[Kingdom of EverRealm]]"

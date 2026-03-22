@@ -2,6 +2,8 @@
 title: "Cormop Palebell"
 slug: "cormop-palebell-person"
 type: Person
+aliases:
+  - "Cormop Palebell"
 draft: true
 wip: true
 ---

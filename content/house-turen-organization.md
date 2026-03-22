@@ -2,6 +2,8 @@
 title: "House Turen"
 slug: "house-turen-organization"
 type: Organization
+aliases:
+  - "House Turen"
 tags:
   - Turen
 Childrenarticles: "[[Sindri Turen]]"

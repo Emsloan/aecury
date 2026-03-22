@@ -2,6 +2,8 @@
 title: "Oroboros"
 slug: "oroboros-settlement"
 type: Settlement
+aliases:
+  - "Oroboros"
 Includedorganizations: "[[Ordo Uterum]]"
 Parent: "[[The New World]]"
 Type: "[[City]]"

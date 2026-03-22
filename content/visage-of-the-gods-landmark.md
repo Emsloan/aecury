@@ -2,6 +2,8 @@
 title: "Visage of the Gods"
 slug: "visage-of-the-gods-landmark"
 type: Landmark
+aliases:
+  - "Visage of the Gods"
 draft: true
 wip: true
 ---

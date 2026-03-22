@@ -2,6 +2,8 @@
 title: "Inapine Pott"
 slug: "inapine-pott-person"
 type: Person
+aliases:
+  - "Inapine Pott"
 Organization: "[[House Turen]]"
 Familyorganization: "[[House Turen]]"
 Relatedorganizations: "[[House Pott]]"

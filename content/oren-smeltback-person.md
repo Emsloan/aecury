@@ -2,6 +2,8 @@
 title: "Oren Smeltback"
 slug: "oren-smeltback-person"
 type: Person
+aliases:
+  - "Oren Smeltback"
 Ruledlocations: "[[Brazen Hold]]"
 Historicalentries: "[[Birth of Bruddick Smeltback]]"
 draft: true

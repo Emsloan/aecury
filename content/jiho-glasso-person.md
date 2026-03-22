@@ -2,6 +2,8 @@
 title: "Jiho Glasso"
 slug: "jiho-glasso-person"
 type: Person
+aliases:
+  - "Jiho Glasso"
 Parentbiological1: "[[Vai Glasso]]"
 Parentadopting1: "[[Blaze Glasso]]"
 Ethnicity: "[[Genasi]]"

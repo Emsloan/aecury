@@ -2,6 +2,8 @@
 title: "Bast's Refuge"
 slug: "bast-s-refuge-settlement"
 type: Settlement
+aliases:
+  - "Bast's Refuge"
 Documents:
   - "[[Journal of Peng Jinzi]]"
   - "[[Letter From Jinshu Imperium to Scattered Tribes]]"

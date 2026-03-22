@@ -2,6 +2,8 @@
 title: "Solar Locus"
 slug: "solar-locus-landmark"
 type: Landmark
+aliases:
+  - "Solar Locus"
 Parent: "[[Bast's Refuge]]"
 Type: "[[Craftsman, Blacksmith / Smithy]]"
 AlternativeNames: "The Horus-Ray"

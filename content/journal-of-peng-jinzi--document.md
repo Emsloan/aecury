@@ -2,6 +2,8 @@
 title: "Journal of Peng Jinzi"
 slug: "journal-of-peng-jinzi--document"
 type: Document
+aliases:
+  - "Journal of Peng Jinzi"
 Relatedlocation: "[[Bast's Refuge]]"
 Documentauthors: "[[Peng Jinzi]]"
 draft: true

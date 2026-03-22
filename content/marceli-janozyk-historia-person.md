@@ -2,6 +2,8 @@
 title: "Marceli Janozyk Historia"
 slug: "marceli-janozyk-historia-person"
 type: Person
+aliases:
+  - "Marceli Janozyk Historia"
 Firstheldranks: "[[Rex Probus]]"
 Foundedlocations:
   - "[[Amangrad]]"

@@ -2,6 +2,8 @@
 title: "Amaunator"
 slug: "amaunator-person"
 type: Person
+aliases:
+  - "Amaunator"
 Church: "[[Church of the Golden Sun]]"
 Religions:
   - "[[Church of the Golden Sun]]"

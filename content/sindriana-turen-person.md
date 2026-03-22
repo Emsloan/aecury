@@ -2,6 +2,8 @@
 title: "Sindriana Turen"
 slug: "sindriana-turen-person"
 type: Person
+aliases:
+  - "Sindriana Turen"
 Parentbiological1: "[[Horjin Offeremp]]"
 Parentbiological2: "[[Venza Turen]]"
 Familyorganization: "[[House Turen]]"

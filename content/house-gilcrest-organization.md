@@ -2,6 +2,8 @@
 title: "House Gilcrest"
 slug: "house-gilcrest-organization"
 type: Organization
+aliases:
+  - "House Gilcrest"
 tags:
   - Gilcrest
 Children: "[[House Gilcrest]]"

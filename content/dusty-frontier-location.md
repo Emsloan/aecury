@@ -2,6 +2,8 @@
 title: "Dusty Frontier"
 slug: "dusty-frontier-location"
 type: Location
+aliases:
+  - "Dusty Frontier"
 Children: "[[Cloud Giant Wizard's Tower]]"
 Parent: "[[Kravral]]"
 draft: true

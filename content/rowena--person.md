@@ -2,6 +2,8 @@
 title: "Rowena"
 slug: "rowena--person"
 type: Person
+aliases:
+  - "Rowena"
 Ruledlocations: "[[Brazen Hold]]"
 draft: true
 wip: true

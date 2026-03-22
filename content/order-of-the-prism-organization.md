@@ -2,6 +2,8 @@
 title: "Order of the Prism"
 slug: "order-of-the-prism-organization"
 type: Organization
+aliases:
+  - "Order of the Prism"
 Flag: "[[Order of the Prism Crest.png]]"
 Geographiclocation: "[[Amangrad]]"
 Parent: "[[Church of the Golden Sun]]"

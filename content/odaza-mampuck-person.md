@@ -2,6 +2,8 @@
 title: "Odaza Mampuck"
 slug: "odaza-mampuck-person"
 type: Person
+aliases:
+  - "Odaza Mampuck"
 draft: true
 wip: true
 ---

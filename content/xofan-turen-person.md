@@ -2,6 +2,8 @@
 title: "Xofan Turen"
 slug: "xofan-turen-person"
 type: Person
+aliases:
+  - "Xofan Turen"
 Parentbiological1: "[[Sindriana Turen]]"
 Parentbiological2: "[[Alnan Boppotenir]]"
 Familyorganization: "[[House Turen]]"

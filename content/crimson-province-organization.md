@@ -2,6 +2,8 @@
 title: "Crimson Province"
 slug: "crimson-province-organization"
 type: Organization
+aliases:
+  - "Crimson Province"
 Type: "[[Geopolitical, Empire]]"
 draft: true
 wip: true

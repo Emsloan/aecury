@@ -2,6 +2,8 @@
 title: "Letter From Jinshu Imperium to Scattered Tribes"
 slug: "letter-from-jinshu-imperium-to-scattered-tribes-document"
 type: Document
+aliases:
+  - "Letter From Jinshu Imperium to Scattered Tribes"
 Relatedlocation: "[[Bast's Refuge]]"
 draft: true
 wip: true

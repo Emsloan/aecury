@@ -2,6 +2,8 @@
 title: "Lirael the Hollow"
 slug: "lirael-the-hollow-person"
 type: Person
+aliases:
+  - "Lirael the Hollow"
 Locations: "[[Cornerbrook]]"
 Pronunciation: "Leer-eye-el"
 draft: true

@@ -2,6 +2,8 @@
 title: "Tadira Kost"
 slug: "tadira-kost-person"
 type: Person
+aliases:
+  - "Tadira Kost"
 Organization: "[[House Turen]]"
 Relatedorganizations: "[[House Kost]]"
 draft: true

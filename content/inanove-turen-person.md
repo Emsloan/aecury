@@ -2,6 +2,8 @@
 title: "Inanove Turen"
 slug: "inanove-turen-person"
 type: Person
+aliases:
+  - "Inanove Turen"
 Familyorganization: "[[House Turen]]"
 draft: true
 wip: true

@@ -2,6 +2,8 @@
 title: "Head of Bahamut"
 slug: "head-of-bahamut-rank"
 type: Rank
+aliases:
+  - "Head of Bahamut"
 Leaders: "[[Talons of Bahamut]]"
 draft: true
 wip: true

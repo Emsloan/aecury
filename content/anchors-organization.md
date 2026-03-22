@@ -2,6 +2,8 @@
 title: "Anchors"
 slug: "anchors-organization"
 type: Organization
+aliases:
+  - "Anchors"
 Maps: "[[Raft]]"
 Locations: "[[Raft]]"
 Geographiclocation: "[[Raft]]"

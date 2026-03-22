@@ -2,6 +2,8 @@
 title: "Thetrath Ocean"
 slug: "thetrath-ocean-location"
 type: Location
+aliases:
+  - "Thetrath Ocean"
 Children: "[[Merryweather]]"
 Parent: "[[Aecury]]"
 Type: "[[Ocean]]"

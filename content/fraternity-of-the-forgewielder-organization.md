@@ -2,6 +2,8 @@
 title: "Fraternity of the Forgewielder"
 slug: "fraternity-of-the-forgewielder-organization"
 type: Organization
+aliases:
+  - "Fraternity of the Forgewielder"
 Geographiclocation: "[[Amangrad]]"
 Parent: "[[Church of the Platinum Lord]]"
 Type: "[[Religious, Sect]]"

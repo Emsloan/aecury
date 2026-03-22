@@ -2,6 +2,8 @@
 title: "Humanoid"
 slug: "humanoid-species"
 type: Species
+aliases:
+  - "Humanoid"
 People:
   - "[[Diana Klyk]]"
   - "[[Clavis Hemwick]]"

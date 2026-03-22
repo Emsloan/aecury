@@ -246,6 +246,10 @@ def generate_markdown(article: Dict[str, Any]) -> str:
     lines.append(f'slug: "{article["slug"]}"')
     lines.append(f'type: {article["type"]}')
 
+    # Add alias for title so [[Title]] links resolve correctly
+    lines.append('aliases:')
+    lines.append(f'  - "{escape_yaml(article["title"])}"')
+
     # Tags
     if article['tags']:
         lines.append('tags:')

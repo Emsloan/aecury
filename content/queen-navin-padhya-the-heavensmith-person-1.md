@@ -2,6 +2,8 @@
 title: "Queen Navin Padhya the Heavensmith"
 slug: "queen-navin-padhya-the-heavensmith-person-1"
 type: Person
+aliases:
+  - "Queen Navin Padhya the Heavensmith"
 Ethnicity: "[[Loxodon]]"
 Species: "[[Awakened]]"
 draft: true

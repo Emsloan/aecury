@@ -2,6 +2,8 @@
 title: "Diana Klyk"
 slug: "diana-klyk-person"
 type: Person
+aliases:
+  - "Diana Klyk"
 Organization: "[[Rustborn]]"
 Ethnicity: "[[Human]]"
 Species: "[[Humanoid]]"

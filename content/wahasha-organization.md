@@ -2,6 +2,8 @@
 title: "Wahasha"
 slug: "wahasha-organization"
 type: Organization
+aliases:
+  - "Wahasha"
 Flag: "[[Beasthold flag.png]]"
 Capital: "[[Wahasha, the Beasthold]]"
 Geographiclocation: "[[Zumarud]]"

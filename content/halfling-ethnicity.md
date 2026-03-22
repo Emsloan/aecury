@@ -2,6 +2,8 @@
 title: "Halfling"
 slug: "halfling-ethnicity"
 type: Ethnicity
+aliases:
+  - "Halfling"
 People:
   - "[[Haruspex Turok]]"
   - "[[Vedast Pott]]"

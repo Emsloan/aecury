@@ -2,6 +2,8 @@
 title: "War of Fang and Scale"
 slug: "war-of-fang-and-scale-militaryConflict"
 type: MilitaryConflict
+aliases:
+  - "War of Fang and Scale"
 Belligerents:
   - "[[Wahasha]]"
   - "[[Oroboros]]"

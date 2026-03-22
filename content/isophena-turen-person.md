@@ -2,6 +2,8 @@
 title: "Isophena Turen"
 slug: "isophena-turen-person"
 type: Person
+aliases:
+  - "Isophena Turen"
 Parentbiological1: "[[Quaziver Turen]]"
 Parentbiological2: "[[Inapine Pott]]"
 Familyorganization: "[[House Turen]]"

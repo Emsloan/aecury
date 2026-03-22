@@ -2,6 +2,8 @@
 title: "The Shambling Woods"
 slug: "the-shambling-woods-location"
 type: Location
+aliases:
+  - "The Shambling Woods"
 Children: "[[Cornerbrook]]"
 Parent: "[[Kravral]]"
 Type: "[[Forest]]"

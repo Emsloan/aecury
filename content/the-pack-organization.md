@@ -2,6 +2,8 @@
 title: "The Pack"
 slug: "the-pack-organization"
 type: Organization
+aliases:
+  - "The Pack"
 Parent: "[[Factions of the New World]]"
 Type: "[[Geopolitical, Tribe]]"
 Leader: "[[Sypha]]"

@@ -2,6 +2,8 @@
 title: "Sandswimmers"
 slug: "sandswimmers-organization"
 type: Organization
+aliases:
+  - "Sandswimmers"
 Geographiclocation: "[[Whispering Canyons]]"
 Parent: "[[Dustwalkers]]"
 Type: "[[Geopolitical, Tribe]]"

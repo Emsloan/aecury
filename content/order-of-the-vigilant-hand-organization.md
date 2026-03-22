@@ -2,6 +2,8 @@
 title: "Order of the Vigilant Hand"
 slug: "order-of-the-vigilant-hand-organization"
 type: Organization
+aliases:
+  - "Order of the Vigilant Hand"
 Geographiclocation: "[[Amangrad]]"
 Parent: "[[Historian Syncretate]]"
 Type: "[[Military Order]]"

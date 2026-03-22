@@ -2,6 +2,8 @@
 title: "Loridira Punggedesol"
 slug: "loridira-punggedesol-person"
 type: Person
+aliases:
+  - "Loridira Punggedesol"
 draft: true
 wip: true
 ---

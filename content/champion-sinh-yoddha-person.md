@@ -2,6 +2,8 @@
 title: "Champion Sinh Yoddha"
 slug: "champion-sinh-yoddha-person"
 type: Person
+aliases:
+  - "Champion Sinh Yoddha"
 Religions: "[[The Pack]]"
 draft: true
 wip: true

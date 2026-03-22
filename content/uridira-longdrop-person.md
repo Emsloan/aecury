@@ -2,6 +2,8 @@
 title: "Uridira Longdrop"
 slug: "uridira-longdrop-person"
 type: Person
+aliases:
+  - "Uridira Longdrop"
 draft: true
 wip: true
 ---

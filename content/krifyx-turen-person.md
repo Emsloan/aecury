@@ -2,6 +2,8 @@
 title: "Krifyx Turen"
 slug: "krifyx-turen-person"
 type: Person
+aliases:
+  - "Krifyx Turen"
 Parentbiological1: "[[Sindri Turen]]"
 Parentbiological2: "[[Merston Linger]]"
 Familyorganization: "[[House Turen]]"

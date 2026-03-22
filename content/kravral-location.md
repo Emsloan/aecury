@@ -2,6 +2,8 @@
 title: "Kravral"
 slug: "kravral-location"
 type: Location
+aliases:
+  - "Kravral"
 Relatedhistories:
   - "[[Forging of the Magna Arms]]"
   - "[[The Esprin-Jotun War]]"

@@ -2,6 +2,8 @@
 title: "Church of Wind and Sun"
 slug: "church-of-wind-and-sun-organization"
 type: Organization
+aliases:
+  - "Church of Wind and Sun"
 Type: "[[Religious, Organised Religion]]"
 Successors:
   - "[[Church of the Golden Sun]]"

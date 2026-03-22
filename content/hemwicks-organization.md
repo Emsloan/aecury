@@ -2,6 +2,8 @@
 title: "Hemwicks"
 slug: "hemwicks-organization"
 type: Organization
+aliases:
+  - "Hemwicks"
 Familymembers:
   - "[[Clavis Hemwick]]"
   - "[[Isaac Hemwick]]"

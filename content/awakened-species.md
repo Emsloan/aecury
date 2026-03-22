@@ -2,6 +2,8 @@
 title: "Awakened"
 slug: "awakened-species"
 type: Species
+aliases:
+  - "Awakened"
 People:
   - "[[Queen Navin Padhya the Heavensmith]]"
   - "[[King Shudraka the Uniter]]"

@@ -2,6 +2,8 @@
 title: "Albis Goldbell"
 slug: "albis-goldbell-person"
 type: Person
+aliases:
+  - "Albis Goldbell"
 Familyorganization: "[[House Turen]]"
 draft: true
 wip: true

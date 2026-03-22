@@ -2,6 +2,8 @@
 title: "Human"
 slug: "human-ethnicity"
 type: Ethnicity
+aliases:
+  - "Human"
 People:
   - "[[Clavis Hemwick]]"
   - "[[Diana Klyk]]"

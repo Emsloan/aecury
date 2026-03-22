@@ -2,6 +2,8 @@
 title: "Yukel"
 slug: "yukel-item"
 type: Item
+aliases:
+  - "Yukel"
 Type: "[[Weapon, Melee]]"
 Manufacturer: "[[Esprin Empire]]"
 Organization: "[[Esprin Empire]]"

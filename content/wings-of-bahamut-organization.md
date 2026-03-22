@@ -2,6 +2,8 @@
 title: "Wings of Bahamut"
 slug: "wings-of-bahamut-organization"
 type: Organization
+aliases:
+  - "Wings of Bahamut"
 Children:
   - "[[Platinum Shield]]"
   - "[[Platinum Sword]]"

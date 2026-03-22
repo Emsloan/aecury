@@ -2,6 +2,8 @@
 title: "Celci Turen"
 slug: "celci-turen-person"
 type: Person
+aliases:
+  - "Celci Turen"
 Parentbiological1: "[[Krifyx Turen]]"
 Parentbiological2: "[[Spiroe Mepledaple]]"
 draft: true

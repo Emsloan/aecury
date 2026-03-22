@@ -2,6 +2,8 @@
 title: "Esprin-Jotun War"
 slug: "esprin-jotun-war-militaryConflict"
 type: MilitaryConflict
+aliases:
+  - "Esprin-Jotun War"
 Belligerents:
   - "[[The Esprin-Dwarven Coalition]]"
   - "[[Kravalan Giant Alliance]]"

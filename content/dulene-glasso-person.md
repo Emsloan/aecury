@@ -2,6 +2,8 @@
 title: "Dulene Glasso"
 slug: "dulene-glasso-person"
 type: Person
+aliases:
+  - "Dulene Glasso"
 Parentbiological1: "[[Vai Glasso]]"
 Parentbiological2: "[[Blaze Glasso]]"
 Ethnicity: "[[Genasi]]"

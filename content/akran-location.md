@@ -2,6 +2,8 @@
 title: "Akran"
 slug: "akran-location"
 type: Location
+aliases:
+  - "Akran"
 Articleparent: "[[Aecury]]"
 Children:
   - "[[Bleeding Fingers]]"

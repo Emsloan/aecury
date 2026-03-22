@@ -2,6 +2,8 @@
 title: "Isabel Hemwick"
 slug: "isabel-hemwick-person"
 type: Person
+aliases:
+  - "Isabel Hemwick"
 draft: true
 wip: true
 ---

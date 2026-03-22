@@ -2,6 +2,8 @@
 title: "Experiments and Enlightenments"
 slug: "experiments-and-enlightenments-prose"
 type: Prose
+aliases:
+  - "Experiments and Enlightenments"
 draft: true
 wip: true
 ---

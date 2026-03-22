@@ -2,6 +2,8 @@
 title: "Brazen Lens"
 slug: "brazen-lens-article"
 type: Organization
+aliases:
+  - "Brazen Lens"
 Locations: "[[Brazen Hold]]"
 People: "[[Clavis Hemwick]]"
 Type: "[[Secret, Brotherhood]]"

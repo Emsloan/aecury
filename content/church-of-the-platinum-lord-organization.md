@@ -2,6 +2,8 @@
 title: "Church of the Platinum Lord"
 slug: "church-of-the-platinum-lord-organization"
 type: Organization
+aliases:
+  - "Church of the Platinum Lord"
 Children:
   - "[[Bellmetal Wardens]]"
   - "[[Fraternity of the Forgewielder]]"

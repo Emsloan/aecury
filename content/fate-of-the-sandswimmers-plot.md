@@ -2,6 +2,8 @@
 title: "Fate of the Sandswimmers"
 slug: "fate-of-the-sandswimmers-plot"
 type: Plot
+aliases:
+  - "Fate of the Sandswimmers"
 Parent: "[[Vultus]]"
 draft: true
 wip: true

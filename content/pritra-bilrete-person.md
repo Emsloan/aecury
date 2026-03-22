@@ -2,6 +2,8 @@
 title: "Pritra Bilrete"
 slug: "pritra-bilrete-person"
 type: Person
+aliases:
+  - "Pritra Bilrete"
 draft: true
 wip: true
 ---

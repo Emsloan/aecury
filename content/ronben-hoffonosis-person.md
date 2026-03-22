@@ -2,6 +2,8 @@
 title: "Ronben Hoffonosis"
 slug: "ronben-hoffonosis-person"
 type: Person
+aliases:
+  - "Ronben Hoffonosis"
 draft: true
 wip: true
 ---

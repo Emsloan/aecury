@@ -2,6 +2,8 @@
 title: "House Pott"
 slug: "house-pott-organization"
 type: Organization
+aliases:
+  - "House Pott"
 tags:
   - Pott
 Childrenarticles: "[[Vedast Pott]]"

@@ -2,6 +2,8 @@
 title: "Amangrad"
 slug: "amangrad-settlement"
 type: Settlement
+aliases:
+  - "Amangrad"
 Claimedcapitals: "[[Historian Syncretate]]"
 Includedorganizations:
   - "[[Bellmetal Wardens]]"

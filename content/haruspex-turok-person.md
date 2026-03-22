@@ -2,6 +2,8 @@
 title: "Haruspex Turok"
 slug: "haruspex-turok-person"
 type: Person
+aliases:
+  - "Haruspex Turok"
 Organizations: "[[Sandswimmers]]"
 Ethnicity: "[[Halfling]]"
 Relatedorganizations: "[[Sandswimmers]]"

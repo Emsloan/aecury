@@ -2,6 +2,8 @@
 title: "Valrick Nelrar"
 slug: "valrick-nelrar-person"
 type: Person
+aliases:
+  - "Valrick Nelrar"
 draft: true
 wip: true
 ---

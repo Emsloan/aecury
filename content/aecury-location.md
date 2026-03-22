@@ -2,6 +2,8 @@
 title: "Aecury"
 slug: "aecury-location"
 type: Location
+aliases:
+  - "Aecury"
 Childrenarticles: "[[Akran]]"
 Maps:
   - "[[Akran]]"

@@ -2,6 +2,8 @@
 title: "Clavis Hemwick"
 slug: "clavis-hemwick-person"
 type: Person
+aliases:
+  - "Clavis Hemwick"
 Locations: "[[Brazen Hold]]"
 Parentbiological1: "[[Isabel Hemwick]]"
 Parentbiological2: "[[Cedric Hemwick]]"

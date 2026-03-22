@@ -2,6 +2,8 @@
 title: "Seats of Change"
 slug: "seats-of-change-organization"
 type: Organization
+aliases:
+  - "Seats of Change"
 Geographiclocation: "[[Everlight District]]"
 Parent: "[[High Council of EverRealm]]"
 Type: "[[Governmental, Department]]"

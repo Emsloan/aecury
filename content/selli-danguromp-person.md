@@ -2,6 +2,8 @@
 title: "Selli Danguromp"
 slug: "selli-danguromp-person"
 type: Person
+aliases:
+  - "Selli Danguromp"
 draft: true
 wip: true
 ---

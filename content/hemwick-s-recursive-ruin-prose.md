@@ -2,6 +2,8 @@
 title: "Hemwick's Recursive Ruin"
 slug: "hemwick-s-recursive-ruin-prose"
 type: Prose
+aliases:
+  - "Hemwick's Recursive Ruin"
 wip: true
 ---
 

@@ -2,6 +2,8 @@
 title: "Kelemvor"
 slug: "kelemvor-person"
 type: Person
+aliases:
+  - "Kelemvor"
 Church: "[[Church of Righteous Death]]"
 Religions:
   - "[[Church of Righteous Death]]"

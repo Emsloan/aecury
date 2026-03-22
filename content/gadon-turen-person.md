@@ -2,6 +2,8 @@
 title: "Gadon Turen"
 slug: "gadon-turen-person"
 type: Person
+aliases:
+  - "Gadon Turen"
 Parentbiological1: "[[Trazu Turen]]"
 Parentbiological2: "[[Odaza Mampuck]]"
 Familyorganization: "[[House Turen]]"

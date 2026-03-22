@@ -2,6 +2,8 @@
 title: "Kingdom of EverRealm"
 slug: "kingdom-of-everrealm-organization-1"
 type: Organization
+aliases:
+  - "Kingdom of EverRealm"
 tags:
   - akran organizations
 Maps:

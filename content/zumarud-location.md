@@ -2,6 +2,8 @@
 title: "Zumarud"
 slug: "zumarud-location"
 type: Location
+aliases:
+  - "Zumarud"
 Relatedhistories: "[[The War of Scale and Fang]]"
 Children:
   - "[[Jaws of Sebek]]"

@@ -2,6 +2,8 @@
 title: "Nokisgrad"
 slug: "nokisgrad-settlement"
 type: Settlement
+aliases:
+  - "Nokisgrad"
 Parent: "[[Kingdom of Historia]]"
 Type: "[[City]]"
 Person: "[[Abraham Gorkole]]"

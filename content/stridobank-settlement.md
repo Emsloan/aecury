@@ -2,6 +2,8 @@
 title: "Stridobank"
 slug: "stridobank-settlement"
 type: Settlement
+aliases:
+  - "Stridobank"
 Characters:
   - "[[Delmave]]"
   - "[[Dimitri]]"

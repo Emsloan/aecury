@@ -2,6 +2,8 @@
 title: "Bejeweled Idolatry"
 slug: "bejeweled-idolatry-organization"
 type: Organization
+aliases:
+  - "Bejeweled Idolatry"
 Type: "[[Religious, Pantheon]]"
 draft: true
 wip: true

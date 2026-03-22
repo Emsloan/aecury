@@ -2,6 +2,8 @@
 title: "Esprin Empire"
 slug: "esprin-empire-organization"
 type: Organization
+aliases:
+  - "Esprin Empire"
 Manufactureditems: "[[Yukel]]"
 Items: "[[Yukel]]"
 Flag: "[[Esprin Crest.png]]"

@@ -2,6 +2,8 @@
 title: "Historian Syncretate"
 slug: "historian-syncretate-organization"
 type: Organization
+aliases:
+  - "Historian Syncretate"
 tags:
   - akran organizations
 Children:

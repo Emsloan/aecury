@@ -2,6 +2,8 @@
 title: "Horjin Offeremp"
 slug: "horjin-offeremp-person"
 type: Person
+aliases:
+  - "Horjin Offeremp"
 draft: true
 wip: true
 ---

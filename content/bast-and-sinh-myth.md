@@ -2,6 +2,8 @@
 title: "Bast and Sinh"
 slug: "bast-and-sinh-myth"
 type: Myth
+aliases:
+  - "Bast and Sinh"
 draft: true
 wip: true
 ---

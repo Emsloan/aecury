@@ -2,6 +2,8 @@
 title: "Raft"
 slug: "raft-settlement"
 type: Settlement
+aliases:
+  - "Raft"
 Cover: "[[Raft.jpg]]"
 Maps: "[[Raft]]"
 Includedorganizations: "[[Anchors]]"

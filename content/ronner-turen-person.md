@@ -2,6 +2,8 @@
 title: "Ronner Turen"
 slug: "ronner-turen-person"
 type: Person
+aliases:
+  - "Ronner Turen"
 Parentbiological1: "[[Isophena Turen]]"
 Parentbiological2: "[[Ronben Hoffonosis]]"
 Familyorganization: "[[House Turen]]"

@@ -2,6 +2,8 @@
 title: "Cornerbrook"
 slug: "cornerbrook-landmark"
 type: Landmark
+aliases:
+  - "Cornerbrook"
 Parent: "[[The Shambling Woods]]"
 Type: "[[Vehicle, Ship]]"
 Person: "[[Lirael the Hollow]]"

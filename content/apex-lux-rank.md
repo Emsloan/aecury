@@ -2,6 +2,8 @@
 title: "Apex Lux"
 slug: "apex-lux-rank"
 type: Rank
+aliases:
+  - "Apex Lux"
 Leaders: "[[Order of the Prism]]"
 draft: true
 wip: true

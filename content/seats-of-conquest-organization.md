@@ -2,6 +2,8 @@
 title: "Seats of Conquest"
 slug: "seats-of-conquest-organization"
 type: Organization
+aliases:
+  - "Seats of Conquest"
 Children:
   - "[[Breath of Bahamut]]"
   - "[[Talons of Bahamut]]"

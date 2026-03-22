@@ -2,6 +2,8 @@
 title: "Black Cradle of Vultus"
 slug: "black-cradle-of-vultus-item"
 type: Item
+aliases:
+  - "Black Cradle of Vultus"
 Type: "[[Magical]]"
 draft: true
 wip: true

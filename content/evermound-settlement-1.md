@@ -2,6 +2,8 @@
 title: "EverMound"
 slug: "evermound-settlement-1"
 type: Settlement
+aliases:
+  - "EverMound"
 Claimedcapitals: "[[Kingdom of EverRealm]]"
 Includedorganizations:
   - "[[House Gilcrest]]"

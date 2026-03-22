@@ -2,6 +2,8 @@
 title: "Vedast Pott"
 slug: "vedast-pott-person"
 type: Person
+aliases:
+  - "Vedast Pott"
 Articleparent: "[[House Pott]]"
 Parentbiological1: "[[Silas Pott]]"
 Parentbiological2: "[[Anette Villadsen]]"

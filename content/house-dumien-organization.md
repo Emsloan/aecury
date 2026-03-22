@@ -2,6 +2,8 @@
 title: "House Dumien"
 slug: "house-dumien-organization"
 type: Organization
+aliases:
+  - "House Dumien"
 tags:
   - Dumien
 Childrenarticles: "[[Atalla Dumien]]"

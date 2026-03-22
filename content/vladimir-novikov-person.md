@@ -2,6 +2,8 @@
 title: "Vladimir Novikov"
 slug: "vladimir-novikov-person"
 type: Person
+aliases:
+  - "Vladimir Novikov"
 Locations:
   - "[[Amangrad]]"
   - "[[Kingdom of Historia]]"

@@ -2,6 +2,8 @@
 title: "Whaler's Cove"
 slug: "whaler-s-cove-settlement"
 type: Settlement
+aliases:
+  - "Whaler's Cove"
 Maps: "[[Whaler's Cove]]"
 Parent: "[[Zumarud]]"
 Type: "[[Town]]"

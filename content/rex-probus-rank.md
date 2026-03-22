@@ -2,6 +2,8 @@
 title: "Rex Probus"
 slug: "rex-probus-rank"
 type: Rank
+aliases:
+  - "Rex Probus"
 Leaders:
   - "[[Church of the Iron Guard]]"
   - "[[Historian Syncretate]]"

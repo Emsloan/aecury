@@ -2,6 +2,8 @@
 title: "Merston Linger"
 slug: "merston-linger-person"
 type: Person
+aliases:
+  - "Merston Linger"
 draft: true
 wip: true
 ---

@@ -2,6 +2,8 @@
 title: "Sindri Turen"
 slug: "sindri-turen-person"
 type: Person
+aliases:
+  - "Sindri Turen"
 Articleparent: "[[House Turen]]"
 Parentbiological1: "[[Tohim Turen]]"
 Parentbiological2: "[[Uridira Longdrop]]"

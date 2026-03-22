@@ -2,6 +2,8 @@
 title: "The Will of the King"
 slug: "None"
 type: Prose
+aliases:
+  - "The Will of the King"
 draft: true
 wip: true
 ---

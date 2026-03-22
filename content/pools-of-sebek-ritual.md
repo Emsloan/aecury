@@ -2,6 +2,8 @@
 title: "Pools of Sebek"
 slug: "pools-of-sebek-ritual"
 type: Ritual
+aliases:
+  - "Pools of Sebek"
 draft: true
 wip: true
 ---
