@@ -4,6 +4,7 @@ slug: "kingdom-of-historia-settlement"
 type: Settlement
 aliases:
   - "Kingdom of Historia"
+  - "Historia"
 Children:
   - "[[Amangrad]]"
   - "[[Nokisgrad]]"
