@@ -10,6 +10,24 @@ const path = require('path');
 
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');
 
+// Read baseUrl from quartz.config.ts to handle subpath sites (e.g., /aecury/)
+function getBaseUrlSubpath() {
+  try {
+    const configPath = path.join(__dirname, '..', 'quartz.config.ts');
+    const configContent = fs.readFileSync(configPath, 'utf-8');
+    const match = configContent.match(/baseUrl:\s*["']([^"']+)["']/);
+    if (match) {
+      const url = new URL(`https://${match[1]}`);
+      return url.pathname; // e.g., "/aecury" or "/"
+    }
+  } catch (e) {
+    // Ignore errors, default to no subpath
+  }
+  return '/';
+}
+
+const BASE_SUBPATH = getBaseUrlSubpath();
+
 // Collect all HTML files
 function findHtmlFiles(dir, files = []) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -63,7 +81,12 @@ function resolveLink(href, sourceFile) {
   if (href.startsWith('./')) {
     targetPath = path.join(sourceDir, href.slice(2));
   } else if (href.startsWith('/')) {
-    targetPath = path.join(PUBLIC_DIR, href.slice(1));
+    // Strip baseUrl subpath if present (e.g., /aecury/foo -> /foo)
+    let cleanHref = href;
+    if (BASE_SUBPATH !== '/' && href.startsWith(BASE_SUBPATH)) {
+      cleanHref = href.slice(BASE_SUBPATH.length) || '/';
+    }
+    targetPath = path.join(PUBLIC_DIR, cleanHref.slice(1));
   } else {
     targetPath = path.join(sourceDir, href);
   }
