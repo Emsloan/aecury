@@ -270,7 +270,7 @@ This converts JSON articles to markdown in the appropriate structure.
 
 - Current branch: `fix/timeline-ids`
 - When committing: Follow existing commit message style
-- Include co-authorship: `Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`
+- Do NOT include Co-Authored-By lines (user's git config handles attribution)
 
 ## Development Environment
 
