@@ -3,6 +3,6 @@ title: "Stride "
 slug: "stride--person"
 type: Person
 aliases:
-  - "Stride "
+  - "Stride"
 wip: true
 ---

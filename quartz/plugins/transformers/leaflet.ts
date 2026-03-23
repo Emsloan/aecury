@@ -95,9 +95,9 @@ export const Leaflet: QuartzTransformerPlugin<Partial<LeafletOptions>> = (userOp
             if (imageUrl && bounds && bounds.length === 2) {
               map = L.map(container, { crs: L.CRS.Simple, minZoom: -3, maxZoom: 4 });
               L.imageOverlay(imageUrl, bounds).addTo(map);
-              map.fitBounds(bounds, { padding: [20, 20] });
+              map.fitBounds(bounds, { padding: [0, 0] });
               // Ensure map renders correctly after container is sized
-              setTimeout(function() { map.invalidateSize(); map.fitBounds(bounds); }, 100);
+              setTimeout(function() { map.invalidateSize(); map.fitBounds(bounds, { padding: [0, 0] }); }, 100);
             } else {
               map = L.map(container).setView([lat, lng], zoom);
               L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {

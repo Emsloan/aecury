@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate content
+        run: node scripts/validate-content.cjs
+
       - name: Build Quartz
         run: npx quartz build
 
