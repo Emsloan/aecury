@@ -8,3 +8,5 @@ Type: "[[District]]"
 draft: true
 wip: true
 ---
+
+West gate is the center of martial power and [[Seat of Conquest]]

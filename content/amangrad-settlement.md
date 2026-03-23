@@ -31,3 +31,25 @@ Demonym: "Historian"
 Constructed: "2386"
 wip: true
 ---
+
+The capital city of the Kingdom of Historia.
+
+Miracles and marvels:
+
+Kelemvor Calmness - any dead creature 10 miles of the city center is under the effect of gentle repose
+
+Ceaceless Watchers - members of the Unsleeping Eyes only need to sleep once a week
+
+Platinum Belltower - enchanted belltower that can cast calm emotions on any who hear the ringing bells
+
+Amaunator's Tolerance - seasonal temperature changes are subdued in the city and surrounding feels, longer growing seasons less temperature extremes
+
+Wartime miracles:
+
+Eternal Army - catacombs
+
+Fervent Dedication - activate to turn those 'blessed' by Helm into berserkers
+
+Platinum barrier - magic city shield
+
+Solar cannon - Moonbeam, but army sized and sunny

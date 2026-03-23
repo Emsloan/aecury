@@ -15,6 +15,8 @@ Motto: "Tempus Intuitum (Time to See)"
 wip: true
 ---
 
+A special military force, the Order of the Vigilant Hand are sworn protectors of the [[Historian Syncretate]]. Little is known about their inner workings of their organization. Among their ranks are the finest warriors and mages outfitted with the most powerful artifacts at Historia's disposal. Such is the trust in their organization's prowess and dedication, they're granted special wartime priveleges to act without approval of the [[Pillars of Historia]].
+
 ## Alternativenames
 
 The Hand

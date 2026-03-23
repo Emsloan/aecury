@@ -6,3 +6,5 @@ aliases:
   - "Platinum Sheath"
 wip: true
 ---
+
+The honor guard of the [[King of EverRealm]].

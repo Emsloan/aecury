@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+The metaphysical barrier between Aecury and the rest of the universe.

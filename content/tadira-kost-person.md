@@ -10,6 +10,8 @@ draft: true
 wip: true
 ---
 
+Biological parent of Trazu Turen
+
 ## Sidebarcontent
 
 

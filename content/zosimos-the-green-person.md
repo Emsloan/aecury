@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+An emerald dragon, one of Bahamut's children.

@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+A being of pure elemental energy.

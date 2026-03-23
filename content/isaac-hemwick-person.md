@@ -9,3 +9,5 @@ Familyorganization: "[[Hemwicks]]"
 draft: true
 wip: true
 ---
+
+Isaac 'Wick' Hemwick is the child of Cedric Hemwick.

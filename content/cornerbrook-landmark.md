@@ -11,6 +11,10 @@ draft: true
 wip: true
 ---
 
+A ship was sighted heading inland some distance north of [[Raft]], eventually running aground on the eastern shore of The Shambling Woods.
+
+It appears abandoned but would-be thieves will find it guarded by spirits and other undead servants of Lirael the Hollow.
+
 ## Seeded
 
 329 gp of coins, art objects, and/or gems, divided as follows:

@@ -9,3 +9,5 @@ Type: "[[Lake]]"
 draft: true
 wip: true
 ---
+
+The large lake that partially encircles Wahasha, the Beasthold, named after the the deity Sebek.

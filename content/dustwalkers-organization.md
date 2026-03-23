@@ -10,3 +10,5 @@ Children: "[[Sandswimmers]]"
 draft: true
 wip: true
 ---
+
+The name for the many tribes that live in the [[Whispering Canyons]] region.

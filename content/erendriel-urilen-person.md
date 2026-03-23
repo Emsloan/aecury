@@ -8,3 +8,5 @@ Ruledlocations: "[[Brazen Hold]]"
 draft: true
 wip: true
 ---
+
+The Rider

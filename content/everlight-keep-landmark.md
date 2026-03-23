@@ -13,3 +13,5 @@ Type: "[[Keep]]"
 draft: true
 wip: true
 ---
+
+The keep was originally constructed around the Everlight Spire and now has integrated the spire into its structure. It is the heart of all matters of state of [[EverRealm]].

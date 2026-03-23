@@ -14,6 +14,8 @@ Plots: "[[What Happened At Greenreach?]]"
 wip: true
 ---
 
+A large sand filled desert with little ability to sustain life. Resting between the branches of a river, this unsuspecting desertscape houses an oasis known as Abydos
+
 ## Seeded
 
 Zaratans, druidic tribes, buried ruins, sea creatures

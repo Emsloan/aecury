@@ -14,3 +14,5 @@ Foundedorganizations:
 draft: true
 wip: true
 ---
+
+Founder of [[Historia]].

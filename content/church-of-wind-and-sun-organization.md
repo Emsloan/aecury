@@ -15,6 +15,10 @@ draft: true
 wip: true
 ---
 
+The Church of Wind and Sun was an ancient religion, with some preserved records and relics dating back to the later years of the 1st millenium. Following the time of [[Weeping Mountains]], the church experienced a schism and split into the Church of the Golden Sun and the [[Church of the Platinum Lord]].
+
+The exact reasons for the schism are not well known as little remains from those chaotic days.
+
 ## Mythos
 
 In the time of the Shadow Days, when darkness and malevolence held unyielding dominion, two brothers were brought into existence. The first, radiant as the dawn, bore the title of the Golden Sun. The second, gleaming with the brilliance of untarnished platinum, was the Platinum Lord.They were gods incarnate, foreordained to dispel the shadows and bestow light upon the world.

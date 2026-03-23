@@ -10,6 +10,8 @@ draft: true
 wip: true
 ---
 
+Biological parent of Krifyx Turen
+
 ## Sidebarcontent
 
 

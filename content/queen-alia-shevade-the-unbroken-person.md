@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Finds the previous kings writings and beliefs, starts to enact those beliefs to dominate.

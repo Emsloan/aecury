@@ -10,3 +10,5 @@ Type: "[[Military, Armed Forces]]"
 Leadertitle: "[[Head of Bahamut]]"
 wip: true
 ---
+
+The Talons of Bahamut consist of the standing army and navy of [[EverRealm]].

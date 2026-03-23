@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+The eastern river flanking [[Whispering Canyons]]

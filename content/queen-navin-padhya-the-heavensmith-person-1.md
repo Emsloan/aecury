@@ -10,6 +10,8 @@ draft: true
 wip: true
 ---
 
+Starts the dilution of the rituals and transference to a champion free society.
+
 ## Dob
 
 2326

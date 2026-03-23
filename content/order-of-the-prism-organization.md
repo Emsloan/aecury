@@ -30,6 +30,8 @@ FoundingDate: "2412"
 wip: true
 ---
 
+[[Historia's]] premier scholarly institution. One is just as likely to find a Knight of the Order of the Prism within a shadowed corner of a library as a lost and forgotten tomb. Those of the Order believes Amaunator's golden light must be shared through learning and discovery.
+
 ## Publicagenda
 
 The Order strives to better the world by sharing their discoveries and inventions with the citizens, and government, of Historia. The Order is known to sponsor libraries, schools, as well as archaeological expeditions. Their discoveries are not all freely accessible, as some are deemed to dangerous to allow into public hands.

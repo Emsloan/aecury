@@ -28,6 +28,8 @@ Appointment: |
 wip: true
 ---
 
+Monarch of the [[Historian Syncretate]], leader of the [[Church of the Iron Guard]], and divine ideal of [[Helm]].
+
 ## Alternativetitle
 
 First Knight's Charge, Wielder of the Gauntlet, The Tireless Blade, Duke of Eastrise, Binder of the Blackroot, First of His Name

@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+The seat of power for the Church of the Golden Sun, residing in [[Amangrad]].

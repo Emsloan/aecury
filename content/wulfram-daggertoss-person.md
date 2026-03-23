@@ -7,3 +7,6 @@ aliases:
 draft: true
 wip: true
 ---
+
+Annabella Tanglefoot's friend and co conspirator. 
+(Male Halfling, 137 y/o, Fighter)

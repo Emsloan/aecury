@@ -13,6 +13,8 @@ draft: true
 wip: true
 ---
 
+> Grasping the hilt of this whip makes your hair stand on end, though whether this is from the arcs of electricity along the thong or the coursing energy welling within you is unclear.
+
 ## Rarity
 
 Very Rare

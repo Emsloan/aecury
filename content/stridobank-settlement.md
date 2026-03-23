@@ -15,6 +15,8 @@ draft: true
 wip: true
 ---
 
+The largest frontier settlement in the [[Whispering Canyons]]
+
 ## Seeded
 
 Mos eisley but make it magic. Small town zealotous preacher, glory to the golden sun. Lawless town, where the in crowd has free reign and can do what they please. Giant bearded dragon posse, climbing speed. Drugs

@@ -11,6 +11,8 @@ draft: true
 wip: true
 ---
 
+Biological parent of Sindri Turen
+
 ## Sidebarcontent
 
 

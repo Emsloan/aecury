@@ -11,6 +11,8 @@ draft: true
 wip: true
 ---
 
+A vast forest north of [[Raft]], containing multiple distinct ecosystems that each vie for dominance. They've somehow achieved a fragile equilibrium.
+
 ## Geography
 
 The Shaded Grove

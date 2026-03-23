@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+The war between Evermound and the Crimson Province.

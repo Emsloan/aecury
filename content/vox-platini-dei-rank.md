@@ -8,3 +8,5 @@ Leaders: "[[Church of the Platinum Lord]]"
 draft: true
 wip: true
 ---
+
+The head of the [[Church of the Platinum Lord]].

@@ -7,3 +7,5 @@ aliases:
 Parent: "[[Wings of Bahamut]]"
 wip: true
 ---
+
+The Platinum Blade (the [[King of EverRealm]]) and his honor guard the [[Platinum Sheath]].

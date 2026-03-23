@@ -9,3 +9,5 @@ Historicalentries: "[[Birth of Bruddick Smeltback]]"
 draft: true
 wip: true
 ---
+
+Blacksmith living in Iron Bay.

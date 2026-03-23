@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Princess of the Crimson Palace and ruler of the Crimson Province.

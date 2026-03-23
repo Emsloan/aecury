@@ -11,3 +11,7 @@ Ruledlocations:
 draft: true
 wip: true
 ---
+
+As Iudex Primeri, the First Pillar of Historia, Alina Volkov is the head of the Church of Righteous Death.
+
+Stern figure, holds great responsibility.

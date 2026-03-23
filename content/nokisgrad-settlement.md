@@ -14,3 +14,5 @@ AlternativeNames: "Nokistra"
 draft: true
 wip: true
 ---
+
+The small desert capital of the Duchy of Nokisgrad. Formerly Nokistra, Nokisgrad experienced short lived sovereignty before being conquered by the Alloyed Consortium and shortly after the [[Historian Syncretate]].

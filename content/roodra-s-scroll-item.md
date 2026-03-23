@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Mythical scroll of King Roodra Tavade the Architect.

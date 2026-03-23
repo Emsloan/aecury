@@ -8,6 +8,8 @@ draft: true
 wip: true
 ---
 
+One of Ao's Chosen. Goddess of creation, magic, and matter.
+
 ## Nickname
 
 Hathor

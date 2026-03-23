@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Humanoid sea folk.

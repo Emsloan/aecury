@@ -8,6 +8,10 @@ draft: true
 wip: true
 ---
 
+Biological parent of Ninove Turen
+
+Dangonronpa, are you kidding me Luke?
+
 ## Sidebarcontent
 
 

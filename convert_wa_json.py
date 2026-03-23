@@ -21,6 +21,16 @@ def escape_yaml(text: str) -> str:
     return text.replace('\\', '\\\\').replace('"', '\\"')
 
 
+def sanitize_alias(text: str) -> str:
+    """Remove characters that can't be in filenames (for alias redirects)."""
+    # Remove characters invalid in Windows/Unix filenames
+    invalid_chars = '<>:"/\\|?*'
+    result = text
+    for char in invalid_chars:
+        result = result.replace(char, '')
+    return result.strip()
+
+
 def parse_tags(tags_string: str) -> List[str]:
     """Parse comma-separated tags."""
     if not tags_string:
@@ -150,10 +160,22 @@ def convert_article(json_path: Path) -> Dict[str, Any]:
         'isDraft': data.get('isDraft', False),
         'isWip': data.get('isWip', False),
         'tags': parse_tags(data.get('tags', '')),
+        'content': '',       # Main body content (root level)
+        'contentHtml': '',   # Main body HTML (root level)
         'sections': {},
         'relations': {},
         'infobox': {}  # Short info fields for sidebar
     }
+
+    # Extract main body content (at root level, NOT in sections)
+    # This is the primary article content that was being missed!
+    main_content = data.get('content', '')
+    main_html = data.get('contentParsed', '')
+
+    if isinstance(main_content, str) and main_content.strip():
+        result['content'] = main_content
+    if isinstance(main_html, str) and main_html.strip():
+        result['contentHtml'] = main_html
 
     # Process sections
     sections = data.get('sections', {})
@@ -247,8 +269,11 @@ def generate_markdown(article: Dict[str, Any]) -> str:
     lines.append(f'type: {article["type"]}')
 
     # Add alias for title so [[Title]] links resolve correctly
-    lines.append('aliases:')
-    lines.append(f'  - "{escape_yaml(article["title"])}"')
+    # Sanitize to avoid invalid filename characters in redirect files
+    clean_alias = sanitize_alias(article["title"])
+    if clean_alias:
+        lines.append('aliases:')
+        lines.append(f'  - "{escape_yaml(clean_alias)}"')
 
     # Tags
     if article['tags']:
@@ -292,7 +317,21 @@ def generate_markdown(article: Dict[str, Any]) -> str:
 
     # Note: No # Title here - Quartz renders title via ArticleTitle component
 
-    # Sections
+    # Main body content (from root level content/contentParsed)
+    # This is the primary article content that was being missed!
+    if article.get('contentHtml'):
+        html = convert_html_links(article['contentHtml'])
+        main_content = html_to_markdown(html)
+        if main_content.strip():
+            lines.append(main_content)
+            lines.append('')
+    elif article.get('content'):
+        main_content = convert_wikilinks(article['content'])
+        if main_content.strip():
+            lines.append(main_content)
+            lines.append('')
+
+    # Sections (additional content from template-specific fields)
     for section_key, section_data in article['sections'].items():
         # Format heading
         heading = format_section_heading(section_key)

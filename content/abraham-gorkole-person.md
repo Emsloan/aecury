@@ -10,3 +10,5 @@ Foundedorganizations: "[[Duchy of Nokisgrad]]"
 draft: true
 wip: true
 ---
+
+Former rebel leader, mentor to Kaiser Historia, and king of Nokistra.

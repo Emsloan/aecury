@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Halfling glassmaker turned bandit captain after [[The Great Flood]].

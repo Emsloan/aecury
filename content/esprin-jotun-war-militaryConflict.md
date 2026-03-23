@@ -14,6 +14,8 @@ draft: true
 wip: true
 ---
 
+The war between the Esprin Empire and Seven Dwarven Clans of Kravral against the Kravral Jotun.
+
 ## Type
 
 Military Campaign

@@ -7,3 +7,7 @@ aliases:
 draft: true
 wip: true
 ---
+
+Annabella Tanglefoot's friend and co conspirotor.
+
+Elena Grosheva (Non-binary Human, 27 y/o, Bard)

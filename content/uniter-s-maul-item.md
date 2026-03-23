@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Legendary warhammer of King Shudraka the Uniter.

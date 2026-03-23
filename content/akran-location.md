@@ -15,6 +15,8 @@ draft: true
 wip: true
 ---
 
+One of the five continents of Aecury . This land is home to the nations of [[EverRealm]] , [[Historia]] , and the Crimson Province . The northern regions of this continent contain untamed lands that are known as the Savage Lands . There is only one known village within the Savage Lands  known as Lunis .
+
 ## Geography
 
 This land contains a plethora of unique and diverse biomes. The Crimson Province was once a region dotted with desert oasis's and dry hot deserts. Much of this land was hard, iron rich limestone that formed large smooth masses of stone. Deep crevices often filled with the remnants of rivers once grand. The land now contains far less life and water flow was cut off from the north. One great river known as the Misty Channel still flows from the Bleeding Fingers all the way down to the Sterile Strait . This river acts as the territorial divide between the Eastern regions of the Crimson Province and the western borders of [[EverRealm]]

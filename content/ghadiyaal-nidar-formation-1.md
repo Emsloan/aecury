@@ -9,6 +9,8 @@ draft: true
 wip: true
 ---
 
+The only remaining descendants of the Crocodilians. Secretly preserved and bred over generations into mindless beasts of war.
+
 ## Type
 
 Shock

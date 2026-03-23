@@ -13,6 +13,8 @@ draft: true
 wip: true
 ---
 
+The leader of the Rustborn.
+
 ## Nickname
 
 Captain Klyk

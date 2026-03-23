@@ -14,6 +14,8 @@ FoundingDate: "2971"
 wip: true
 ---
 
+After the canonization of the [[Forgewielder]] a small but quickly growing following took root in [[Historia]]. The Fraternity considers itself as a sect of the [[Church of the Platinum Lord]]. It is led by the Platinum-touched prophet, Theobold the Crucible, who claims to have known the Forgewielder in life. The sect preaches humility, good acts, faith, and acceptance.
+
 ## Tenets
 
 > Pray as though everything depends on Bahamut. Work as though everything depended on you.

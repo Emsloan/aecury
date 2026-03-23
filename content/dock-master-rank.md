@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Manages the imports and exports of the city by land and by sea.

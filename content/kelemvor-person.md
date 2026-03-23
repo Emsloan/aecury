@@ -11,6 +11,8 @@ Religions:
 wip: true
 ---
 
+> Death is but part of life: fear it not, evade it not, and view it not as evil. To fear death delivers you into the hands of those who can bring death down upon you. Die with dignity, neither raging nor seeking to embrace undeath. Do honor to the dead, for their strivings in life brought Historia to where it is now, and to forget them is to forget also where we are now—and why.
+
 ## Classification
 
 God

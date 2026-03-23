@@ -11,3 +11,5 @@ Ruledlocations:
 draft: true
 wip: true
 ---
+
+As Pontiff Ascendi, Vishara Radoslava is the head of the Church of the Golden Sun.

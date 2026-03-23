@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+God of life, plagues, infections, evolution, decay, rebirth.

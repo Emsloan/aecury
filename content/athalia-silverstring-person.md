@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Powerful high-ranking wizard in [[EverMound]]. Instrumental in the Evermound/Crimson Province War.

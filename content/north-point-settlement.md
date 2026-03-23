@@ -8,3 +8,5 @@ Maps: "[[NorthPoint]]"
 draft: true
 wip: true
 ---
+
+The first colony of [[EverMound]] on the The New World.

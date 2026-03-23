@@ -8,3 +8,17 @@ Permeatedorganizations: "[[Wahasha]]"
 draft: true
 wip: true
 ---
+
+The eleven deities that form Wahasha's religious figures.
+
+Osiris
+Run-ha
+Horus-Re
+Bast
+Anhur
+Hathor
+Sebek
+Isis
+Geb
+Bes
+Thoth

@@ -11,3 +11,5 @@ Leadertitle: "[[Heart of Bahamut]]"
 draft: true
 wip: true
 ---
+
+The Breath of Bahamut consists of all magic users that are within the ranks of [[EverRealm]]'s military.

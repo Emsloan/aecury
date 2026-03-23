@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Mythical artifacts wielded by the hero Sinh

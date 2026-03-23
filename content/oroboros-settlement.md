@@ -19,6 +19,8 @@ Constructed: "314"
 wip: true
 ---
 
+The ruined city, originally seat of the The Yuan-Ti civilization living on Zumarud.
+
 ## Seeded
 
 Recursion, oroborus, time loop, shedding of skin, evolution, cycles

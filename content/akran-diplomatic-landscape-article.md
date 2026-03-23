@@ -6,3 +6,5 @@ aliases:
   - "Akran Diplomatic Landscape"
 wip: true
 ---
+
+Diplomacy Diagram not available

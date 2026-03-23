@@ -7,3 +7,7 @@ aliases:
 draft: true
 wip: true
 ---
+
+The population of Tritons who live near and on Zumarud. They seek to reenter the Elemental Plane of Water.
+
+Pescetarion

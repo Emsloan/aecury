@@ -8,3 +8,10 @@ Type: "[[Religious, Pantheon]]"
 draft: true
 wip: true
 ---
+
+Auvaron
+Aeoneous 
+Saint Avraelia 
+Doriak Lightbrand 
+Vinculus 
+Iedarr the Crimson

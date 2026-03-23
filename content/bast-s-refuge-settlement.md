@@ -23,3 +23,5 @@ Children:
 draft: true
 wip: true
 ---
+
+This is the location where Basts' people built her a stronghold. There are ruins that will be detailed as child articles

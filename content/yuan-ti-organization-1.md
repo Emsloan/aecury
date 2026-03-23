@@ -11,3 +11,5 @@ Historicentries: "[[The War of Scale and Fang]]"
 draft: true
 wip: true
 ---
+
+Snakefolk living on the New World who were historically in opposition with the Wahashans and the Southern People

@@ -8,6 +8,8 @@ draft: true
 wip: true
 ---
 
+Fire giants of Kravral
+
 ## Showdiplomacy
 
 1

@@ -7,3 +7,5 @@ aliases:
 draft: true
 wip: true
 ---
+
+Intellectual deity known for academic debate and innovation.
