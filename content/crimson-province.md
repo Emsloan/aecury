@@ -16,8 +16,6 @@ Ethnicities:
   - "The Exorcized"
   - "The Pure"
   - "Al Halim"
-draft: true
-wip: true
 ---
 
 Spirituality

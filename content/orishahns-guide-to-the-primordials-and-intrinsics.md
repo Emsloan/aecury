@@ -5,8 +5,6 @@ type: Article
 aliases:
   - "Orishahn's Guide"
   - "Orishahn's Guide to the Intrinsics and Primordials"
-draft: true
-wip: true
 ---
 
 Orishahn's Guide
