@@ -2,21 +2,76 @@
 
 This file provides guidance to Claude Code when working with the Aecury worldbuilding project.
 
+## Lessons Learned - READ THIS FIRST
+
+### Source of Truth
+
+**World Anvil Export (permanent location):**
+```
+C:\Users\exman\Documents\aecury-site\source\world-anvil-export-2023-08-30\
+└── worlds/Aecury/articles/   ← 427 JSON files, canonical source
+```
+
+**Converter:**
+```
+C:\Users\exman\Documents\aecury-site\convert_wa_json.py
+```
+Reads from: `source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
+Outputs to: `content\`
+
+**Other source material:**
+- `C:\Users\exman\Documents\aecury\aecury-export.pdf` - PDF export (472MB), may have content missing from JSON/HTML
+- `C:\Users\exman\Documents\aecury\orishahns-guide.docx` - Source document
+
+**Before converting content, VERIFY the source contains what you expect.**
+
+### Failure Patterns to Avoid
+
+1. **Claiming victory without verification** - "Fixed!" means nothing without proving it works. Check the actual output, not just that the code ran.
+
+2. **Fixing symptoms instead of root causes** - When content is missing, don't offer to manually add it. Ask: WHY is the converter not extracting it? The machine is broken.
+
+3. **Confidently stating things that contradict previous statements** - If you said X before and now say not-X, acknowledge the contradiction and investigate rather than bulldozing forward.
+
+4. **Using relative paths with a human** - The user is on Windows looking at Explorer. Use full paths: `C:\Users\exman\Documents\aecury-site\content\` not `../aecury/`.
+
+5. **Leaving uncommitted artifacts** - Every experimental approach creates files. These MUST be committed to branches (even if not pushed) so git history shows the trail of attempts. Without this, future sessions can't see "we tried X, it failed, we tried Y."
+
+### Artifact Tracking Protocol
+
+When trying different approaches (PDF parsing vs JSON parsing, different converters, etc.):
+
+1. **Before starting**: Check `git status` for uncommitted files from previous attempts
+2. **Create a branch** for the experiment: `git checkout -b experiment/pdf-parsing`
+3. **Commit artifacts** even if messy - the history matters more than cleanliness
+4. **Document what was tried** in commit messages: what approach, what failed, what was learned
+
+The goal: Any future session can run `git log --oneline` and see the trail of attempts, not a clean history that hides the exploration.
+
+### Verification Before Claiming Success
+
+Before saying something is "fixed" or "working":
+
+1. **Read the actual output** - not just "the script ran", but "here's what the file contains now"
+2. **Compare to source** - does the output match what's in the source data?
+3. **Test the user's specific example** - if they mentioned Yuan-ti, check Yuan-ti specifically
+4. **Count/measure** - "311 stubs before, 233 after" not "many articles now have content"
+
 ## Project Overview
 
-**Aecury** is a D&D worldbuilding project consisting of:
+**Aecury** is a D&D worldbuilding project. All project files are in `C:\Users\exman\Documents\aecury-site\`:
 
-1. **Source Data** (`../aecury/`):
-   - World Anvil JSON export (440+ articles in `worlds/Aecury/`)
-   - Conversion scripts (`convert.py`, `add_related.py`)
-   - Source documents (`orishahns-guide.docx`)
-   - PAL MCP Server for multi-model AI orchestration
+- `source/world-anvil-export-2023-08-30/` - World Anvil JSON export (427 articles)
+- `content/` - Converted markdown articles (Obsidian vault)
+- `quartz/` - Quartz static site framework
+- `quartz/plugins/transformers/leaflet.ts` - Interactive maps
+- `quartz/plugins/transformers/timeline.ts` - Interactive timelines
+- `convert_wa_json.py` - JSON to markdown converter
+- `public/` - Built static site
 
-2. **Published Site** (this directory):
-   - Quartz framework (`quartz/`)
-   - Markdown articles (`content/`)
-   - Custom plugins for maps and timelines
-   - Built site in `public/`
+**Related files (external):**
+- `C:\Users\exman\Documents\aecury\aecury-export.pdf` - PDF export backup
+- `C:\Users\exman\Documents\aecury\orishahns-guide.docx` - Source document
 
 ## Lore Handling - CRITICAL
 
@@ -79,50 +134,35 @@ images:
 
 When user says "go brr" or similar, Haiku can handle straightforward implementation.
 
+### Ouroboros - Specification-First Development
+
+This project uses **Ouroboros** (https://github.com/Q00/ouroboros), a specification-first AI development system. It applies Socratic questioning and ontological analysis to clarify requirements before writing code.
+
+**Key Commands (run inside Claude Code session):**
+- `ooo interview "task description"` - Socratic questioning to expose hidden assumptions
+- `ooo seed` - Crystallize answers into immutable specification
+- `ooo run` - Execute via Double Diamond decomposition
+- `ooo evaluate` - 3-stage verification gate
+- `ooo status` - Drift detection + session tracking
+
+**Philosophy:** "Most AI coding fails at the input, not the output. The bottleneck isn't AI capability. It's human clarity."
+
 ### PAL MCP - Multi-Model AI Orchestration
 
-This project has **PAL MCP Server** configured, enabling Claude to orchestrate multiple AI models within a single conversation.
+PAL MCP is configured for multi-model orchestration via Ollama.
 
 **Available PAL Tools:**
-- `chat` - Brainstorm with other models (Gemini Pro, GPT-5, O3, local Ollama)
+- `chat` - Brainstorm with other models (local Ollama)
 - `thinkdeep` - Extended reasoning for complex problems
 - `codereview` - Multi-model code reviews with severity levels
-- `precommit` - Validate changes before committing
 - `debug` - Systematic debugging with hypothesis tracking
-- `planner` - Break down complex projects into structured plans
 - `consensus` - Get expert opinions from multiple models
-- `apilookup` - Fetch current API/SDK docs (prevents outdated training data)
-- `challenge` - Critical analysis to prevent "you're absolutely right" responses
+- `apilookup` - Fetch current API/SDK docs
 
-**Ollama Model Selection (via PAL):**
-
-Based on testing (see `test-model-comparison.md`):
-- **llama3.1:8b** - Straightforward implementation, minimalist, no over-engineering
-- **deepseek-r1:7b** - Second opinions, validation, extended reasoning
-- **qwen2.5:7b** - Good general capability, faster than 14b
-- **qwen2.5:14b** - Better reasoning, use when quality matters over speed
-
-**When to Use PAL:**
-- **Second opinions** - Get validation on uncertain approaches
-- **Consensus building** - Multiple models for architectural decisions
-- **Large context needs** - Gemini has 1M token context window
-- **Straightforward implementation** - Delegate simple tasks to llama3.1:8b
-- **Current documentation** - Use `apilookup` for latest API docs
-- **Code reviews** - Multi-model validation with `codereview`
-
-**Example PAL Usage:**
-```
-"Use chat with llama3.1:8b to implement this simple helper function"
-"Get consensus from deepseek-r1 and qwen2.5:14b on this architecture approach"
-"Use apilookup to find the current Timeline.js v3 API for event configuration"
-```
-
-**PAL Best Practices:**
-- **Claude (Sonnet) does the complex reasoning** - architecture, debugging, planning
-- **Delegate straightforward tasks** to local Ollama models (llama3.1:8b)
-- **Get second opinions** when uncertain or validating approaches
-- Use `apilookup` to prevent outdated training data issues
-- Conversation context flows between models seamlessly
+**Ollama Models:**
+- **llama3.1:8b** - Straightforward implementation
+- **deepseek-r1:7b** - Second opinions, validation
+- **qwen2.5:14b** - Better reasoning when quality matters
 
 ## Efficiency & Collaboration Ethos
 
@@ -160,7 +200,7 @@ Loop the user in at key decision points BEFORE proceeding:
 
 ### World Anvil Articles
 
-Articles in `../aecury/worlds/Aecury/` are JSON files containing:
+Articles in `C:\Users\exman\Documents\aecury-site\source\world-anvil-export-2023-08-30\worlds\Aecury\articles\` are JSON files containing:
 - **Core metadata**: id, title, slug, state (public/private), isDraft, isWip
 - **Entity information**: entityClass (Location, Character, Organization, etc.)
 - **Content**: contentParsed (HTML), sections (custom fields by template)
@@ -258,13 +298,14 @@ events:
 
 ### Converting World Anvil Data
 
-To update from World Anvil export:
+To regenerate content from World Anvil export:
 ```bash
-cd ../aecury
-python convert.py
+cd C:\Users\exman\Documents\aecury-site
+python convert_wa_json.py
 ```
 
-This converts JSON articles to markdown in the appropriate structure.
+Reads from: `source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
+Outputs to: `content\`
 
 ### Git Workflow
 
@@ -294,15 +335,18 @@ To understand how articles relate:
 
 ### Finding Articles by Category
 
-Articles stored in `../aecury/worlds/Aecury/articles/<CategoryName>/`
+JSON articles stored in:
+```
+C:\Users\exman\Documents\aecury-site\source\world-anvil-export-2023-08-30\worlds\Aecury\articles\<CategoryName>\
+```
 
 ### Adding New Features
 
 For non-trivial features:
-1. Use PAL `planner` tool to break down the work
-2. Get `consensus` from multiple models if architecture unclear
-3. Implement systematically
-4. Use `precommit` to validate before committing
+1. Use Ouroboros `ooo interview` to clarify requirements first
+2. Use `ooo seed` to create specification
+3. Use `ooo run` to execute with decomposition
+4. Use `ooo evaluate` to verify
 
 ## Notes for Future Work
 
@@ -312,3 +356,14 @@ For non-trivial features:
 - `sections` vary by article template type
 - Article slugs and IDs are stable identifiers for cross-referencing
 - Leaflet and Timeline plugins use slug-based IDs for proper initialization
+
+### Frontmatter Field Analysis (TODO)
+
+**Goal**: Create comprehensive templates for auto-tagging/fleshing out articles
+
+**Action needed**:
+- Analyze ALL possible frontmatter fields across all article types (Location, Organization, Person, etc.)
+- Document field usage patterns by type
+- Create templates showing which fields are common/required for each type
+- Use this for auto-tagging system or article completion goals
+- Examples: Organization has Leader/Ethnicities/Deities, Location has Parent/Children/Type
