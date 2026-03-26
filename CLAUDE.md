@@ -2,60 +2,29 @@
 
 This file provides guidance to Claude Code when working with the Aecury worldbuilding project.
 
-## Lessons Learned - READ THIS FIRST
+## Quick Reference
 
 ### Source of Truth
 
-**World Anvil Export (permanent location):**
-```
-C:\Users\exman\Documents\aecury-site\source\world-anvil-export-2023-08-30\
-└── worlds/Aecury/articles/   ← 427 JSON files, canonical source
-```
+**World Anvil Export:**
+- Location: `C:\Users\exman\Documents\aecury-site\source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
+- 427 JSON files (canonical source)
 
 **Converter:**
-```
-C:\Users\exman\Documents\aecury-site\convert_wa_json.py
-```
-Reads from: `source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
-Outputs to: `content\`
+- Script: `C:\Users\exman\Documents\aecury-site\convert_wa_json.py`
+- Reads from: `source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
+- Outputs to: `content\`
 
-**Other source material:**
-- `C:\Users\exman\Documents\aecury\aecury-export.pdf` - PDF export (472MB), may have content missing from JSON/HTML
+**Other sources:**
+- `C:\Users\exman\Documents\aecury\aecury-export.pdf` - PDF export backup
 - `C:\Users\exman\Documents\aecury\orishahns-guide.docx` - Source document
 
-**Before converting content, VERIFY the source contains what you expect.**
+### Common Sense
 
-### Failure Patterns to Avoid
-
-1. **Claiming victory without verification** - "Fixed!" means nothing without proving it works. Check the actual output, not just that the code ran.
-
-2. **Fixing symptoms instead of root causes** - When content is missing, don't offer to manually add it. Ask: WHY is the converter not extracting it? The machine is broken.
-
-3. **Confidently stating things that contradict previous statements** - If you said X before and now say not-X, acknowledge the contradiction and investigate rather than bulldozing forward.
-
-4. **Using relative paths with a human** - The user is on Windows looking at Explorer. Use full paths: `C:\Users\exman\Documents\aecury-site\content\` not `../aecury/`.
-
-5. **Leaving uncommitted artifacts** - Every experimental approach creates files. These MUST be committed to branches (even if not pushed) so git history shows the trail of attempts. Without this, future sessions can't see "we tried X, it failed, we tried Y."
-
-### Artifact Tracking Protocol
-
-When trying different approaches (PDF parsing vs JSON parsing, different converters, etc.):
-
-1. **Before starting**: Check `git status` for uncommitted files from previous attempts
-2. **Create a branch** for the experiment: `git checkout -b experiment/pdf-parsing`
-3. **Commit artifacts** even if messy - the history matters more than cleanliness
-4. **Document what was tried** in commit messages: what approach, what failed, what was learned
-
-The goal: Any future session can run `git log --oneline` and see the trail of attempts, not a clean history that hides the exploration.
-
-### Verification Before Claiming Success
-
-Before saying something is "fixed" or "working":
-
-1. **Read the actual output** - not just "the script ran", but "here's what the file contains now"
-2. **Compare to source** - does the output match what's in the source data?
-3. **Test the user's specific example** - if they mentioned Yuan-ti, check Yuan-ti specifically
-4. **Count/measure** - "311 stubs before, 233 after" not "many articles now have content"
+- **Verify before claiming success** - Read the actual output, compare to source
+- **Fix root causes, not symptoms** - When converter fails, fix the converter
+- **Use full Windows paths** - `C:\Users\exman\Documents\aecury-site\content\` not relative paths
+- **Check git status before starting** - Know what's uncommitted from previous work
 
 ## Project Overview
 
@@ -124,77 +93,13 @@ images:
     prompt: "fantasy elf warrior..."
 ```
 
-## Model & Tool Usage
+## Tools Available
 
-### Claude Model Selection
+**Ouroboros** - Specification-first development via MCP (configured in `.mcp.json`)
+- Use for complex features that need clarification before coding
+- Commands: `/interview`, `/seed`, `/run`, `/evaluate`, `/status`
 
-- **Claude Haiku** (free in VS Code) - Use for implementation tasks, file edits, routine work
-- **Claude Sonnet** - Primary model for most work, orchestration, planning
-- **Claude Opus** - Reserve for complex reasoning, architectural decisions
-
-When user says "go brr" or similar, Haiku can handle straightforward implementation.
-
-### Ouroboros - Specification-First Development
-
-This project uses **Ouroboros** (https://github.com/Q00/ouroboros), a specification-first AI development system. It applies Socratic questioning and ontological analysis to clarify requirements before writing code.
-
-**Key Commands (run inside Claude Code session):**
-- `ooo interview "task description"` - Socratic questioning to expose hidden assumptions
-- `ooo seed` - Crystallize answers into immutable specification
-- `ooo run` - Execute via Double Diamond decomposition
-- `ooo evaluate` - 3-stage verification gate
-- `ooo status` - Drift detection + session tracking
-
-**Philosophy:** "Most AI coding fails at the input, not the output. The bottleneck isn't AI capability. It's human clarity."
-
-### PAL MCP - Multi-Model AI Orchestration
-
-PAL MCP is configured for multi-model orchestration via Ollama.
-
-**Available PAL Tools:**
-- `chat` - Brainstorm with other models (local Ollama)
-- `thinkdeep` - Extended reasoning for complex problems
-- `codereview` - Multi-model code reviews with severity levels
-- `debug` - Systematic debugging with hypothesis tracking
-- `consensus` - Get expert opinions from multiple models
-- `apilookup` - Fetch current API/SDK docs
-
-**Ollama Models:**
-- **llama3.1:8b** - Straightforward implementation
-- **deepseek-r1:7b** - Second opinions, validation
-- **qwen2.5:14b** - Better reasoning when quality matters
-
-## Efficiency & Collaboration Ethos
-
-**Core Principle:** Treat the user as demanding upper management - get approval before burning tokens on uncertain work.
-
-### Token & Time Saving
-
-1. **Use Haiku for implementation** - Simple component creation, CSS styling, routine edits
-2. **Use subagents for exploration** - Don't waste Opus tokens reading files that can be delegated
-3. **Use PAL for validation** - Get second opinions on architecture before writing code
-4. **Ask rather than guess** - On design questions, clarify with user instead of making assumptions
-
-### User Checkpoints
-
-Loop the user in at key decision points BEFORE proceeding:
-
-| Checkpoint | What to Show | Why |
-|------------|-------------|-----|
-| After research/planning | Field list, approach options | Confirm direction before implementation |
-| After component skeleton | Basic structure, data flow | Confirm architecture before styling |
-| After styling draft | Live preview or description | Confirm visual approach |
-| Before major refactors | Proposed changes, tradeoffs | Get explicit approval |
-
-**Rule:** If uncertain about design direction → ASK. Don't burn tokens guessing.
-
-### Avoid Common Wastes
-
-- Don't over-engineer simple features
-- Don't add features not requested
-- Don't create abstractions for one-time operations
-- Don't guess at requirements - clarify first
-- Don't redo work - checkpoint early and often
+**When uncertain, ask** - Don't burn tokens guessing at design decisions
 
 ## Source Data Structure
 
@@ -309,19 +214,12 @@ Outputs to: `content\`
 
 ### Git Workflow
 
-- Current branch: `fix/timeline-ids`
-- When committing: Follow existing commit message style
-- Do NOT include Co-Authored-By lines (user's git config handles attribution)
+- Follow existing commit message style
+- Don't add Co-Authored-By lines
 
-## Development Environment
+## SSH Access
 
-### SSH Access
-
-Remote access from laptop to desktop PC:
-- **Desktop PC IP**: 192.168.86.197
-- **Command**: `ssh exman@192.168.86.197`
-- **Port**: 22 (OpenSSH Server)
-- **Authentication**: SSH key (no password required)
+Desktop PC: `ssh exman@192.168.86.197`
 
 ## Common Tasks
 
@@ -357,13 +255,6 @@ For non-trivial features:
 - Article slugs and IDs are stable identifiers for cross-referencing
 - Leaflet and Timeline plugins use slug-based IDs for proper initialization
 
-### Frontmatter Field Analysis (TODO)
+### TODO: Frontmatter Field Analysis
 
-**Goal**: Create comprehensive templates for auto-tagging/fleshing out articles
-
-**Action needed**:
-- Analyze ALL possible frontmatter fields across all article types (Location, Organization, Person, etc.)
-- Document field usage patterns by type
-- Create templates showing which fields are common/required for each type
-- Use this for auto-tagging system or article completion goals
-- Examples: Organization has Leader/Ethnicities/Deities, Location has Parent/Children/Type
+If needed: Analyze frontmatter fields across article types to create templates for auto-tagging
