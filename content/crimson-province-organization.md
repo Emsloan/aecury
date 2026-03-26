@@ -74,7 +74,7 @@ _Eye Color: Purple/Violet Iris_
 
 ## The End of the War
 
-After a brutal 31 years of war, Evermound decided to...
+After a brutal 547 years of war, Evermound decided to...
 
 - Divine rights of the king of the Evermound, an artifact to channel a wish spell
 - Discovered Iadathite in Lunus

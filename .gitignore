@@ -9,3 +9,16 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Claude-specific files
+.claude/
+AECURY-LORE-SUMMARY.md
+PROJECT-ANALYSIS.md
+*-ANALYSIS.md
+pdf_structure_samples.txt
+timeline_data_complete.json
+
+# Source data and outputs
+source/
+output/
+test-outputs/

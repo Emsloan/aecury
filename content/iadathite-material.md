@@ -10,9 +10,9 @@ wip: true
 
 Iadathite is a blueish substance with a number of magical properties. Iadathite is primarily found on Iadath and within chunks of Iadath scattered across Aecury from various cosmological events.
 
-Rarely, Iadath is found infused with small deposits of a violet ore known as Fernaxite.
+Rarely, Iadath is found infused with small deposits of a violet metal known as Fernaxum.
 
-Since its discovery a number of practical uses of Iadathite have been developed, most notably it's use in Wild Magic Bombs.
+Since its discovery a number of practical uses of Iadathite have been developed, most notably it's use in Wild Magic Bombs. 
 
 Wild magic grenade.
 

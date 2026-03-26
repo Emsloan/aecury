@@ -4,6 +4,7 @@ slug: "letter-from-jean-luminescu-to-haskell-document"
 type: Document
 aliases:
   - "Letter From Jean Luminescu to Haskell"
+draft: true
 wip: true
 ---
 

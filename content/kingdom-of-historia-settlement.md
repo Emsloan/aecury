@@ -7,22 +7,17 @@ aliases:
 Children:
   - "[[Amangrad]]"
   - "[[Nokisgrad]]"
-Includedorganizations:
-  - "[[Church of the Platinum Lord]]"
-  - "[[Duchy of Nokisgrad]]"
-  - "[[Historian Syncretate]]"
+Includedorganizations: "[[Duchy of Nokisgrad]]"
 Parent: "[[Akran]]"
 Type: "[[State]]"
 Person: "[[Vladimir Novikov]]"
 Rank: "[[Rex Probus]]"
-Organization: "[[Historian Syncretate]]"
+Organization: "[[Historian Theocracy]]"
 Founders: "[[Marceli Janozyk Historia]]"
 Additionalrulers:
   - "[[Alina Volkov]]"
   - "[[Vishara Radoslava]]"
-Ranks:
-  - "[[Pontiff Ascendi]]"
-  - "[[Rex Probus]]"
+Ranks: "[[Pontiff Ascendi]]"
 Demonym: "Historian"
 draft: true
 wip: true

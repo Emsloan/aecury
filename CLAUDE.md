@@ -95,10 +95,6 @@ images:
 
 ## Tools Available
 
-**Ouroboros** - Specification-first development via MCP (configured in `.mcp.json`)
-- Use for complex features that need clarification before coding
-- Commands: `/interview`, `/seed`, `/run`, `/evaluate`, `/status`
-
 **When uncertain, ask** - Don't burn tokens guessing at design decisions
 
 ## Source Data Structure

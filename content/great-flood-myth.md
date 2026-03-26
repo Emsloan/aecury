@@ -4,6 +4,7 @@ slug: "great-flood-myth"
 type: Myth
 aliases:
   - "Great Flood"
+draft: true
 wip: true
 ---
 

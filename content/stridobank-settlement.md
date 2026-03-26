@@ -10,7 +10,7 @@ Characters:
 Parent: "[[Whispering Canyons]]"
 Type: "[[Town]]"
 Person: "[[Delmave Black]]"
-Organization: "[[Historian Syncretate]]"
+Organization: "[[Historian Theocracy]]"
 draft: true
 wip: true
 ---

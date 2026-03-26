@@ -7,10 +7,7 @@ aliases:
 Locations:
   - "[[Amangrad]]"
   - "[[Kingdom of Historia]]"
-Organizations:
-  - "[[Church of the Iron Guard]]"
-  - "[[Historian Syncretate]]"
-Currentranks: "[[Rex Probus]]"
+Organizations: "[[Historian Theocracy]]"
 draft: true
 wip: true
 ---

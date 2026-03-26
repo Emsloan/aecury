@@ -8,7 +8,7 @@ People:
   - "[[Diana Klyk]]"
   - "[[Clavis Hemwick]]"
 Relatedorganizations:
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[Kingdom of EverRealm]]"
 draft: true
 wip: true

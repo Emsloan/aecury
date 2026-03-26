@@ -9,7 +9,7 @@ People:
   - "[[Vedast Pott]]"
 Organizations:
   - "[[Anchors]]"
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[Kingdom of EverRealm]]"
   - "[[Sandswimmers]]"
 draft: true

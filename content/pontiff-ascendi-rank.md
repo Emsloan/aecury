@@ -4,9 +4,8 @@ slug: "pontiff-ascendi-rank"
 type: Rank
 aliases:
   - "Pontiff Ascendi"
-Leaders: "[[Church of the Golden Sun]]"
 Relatedorganizations:
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[Church of the Golden Sun]]"
 Relatedlocations:
   - "[[Amangrad]]"

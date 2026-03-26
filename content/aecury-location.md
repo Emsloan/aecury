@@ -21,7 +21,6 @@ Children:
   - "[[Thetrath Ocean]]"
   - "[[Zavruthar]]"
   - "[[Zumarud]]"
-Divines: "[[Vultus the Inquisitive]]"
 Type: "[[Planet]]"
 Pronunciation: "Aye-cure-ee"
 draft: true

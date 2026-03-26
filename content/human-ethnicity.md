@@ -9,7 +9,7 @@ People:
   - "[[Diana Klyk]]"
 Organizations:
   - "[[Anchors]]"
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[Kingdom of EverRealm]]"
   - "[[Three Root Houses]]"
 draft: true

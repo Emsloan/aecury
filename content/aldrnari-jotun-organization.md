@@ -8,7 +8,7 @@ draft: true
 wip: true
 ---
 
-Fire giants of Kravral
+Fire giants of @Kravral
 
 ## Showdiplomacy
 

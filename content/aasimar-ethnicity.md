@@ -7,7 +7,7 @@ aliases:
 Organizations:
   - "[[Anchors]]"
   - "[[Esprin Empire]]"
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[Kingdom of EverRealm]]"
 draft: true
 wip: true

@@ -6,7 +6,7 @@ aliases:
   - "Dwarf"
 Organizations:
   - "[[Anchors]]"
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[Kingdom of EverRealm]]"
 draft: true
 wip: true

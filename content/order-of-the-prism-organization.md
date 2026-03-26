@@ -44,7 +44,7 @@ The Order promotes collaboration and communication. It has been proven time and 
 
 ## Origins
 
-The Order of the Prism, not in name but function, existed shortly after the founding of Historia. Following the [[Great Flood]] there was an urgent need to preserve and reclaim knowledge lost in the catastrophe. The clerics of Amaunator took the duty upon themselves and began to part the shadows. Over time, the Order of the Prism was ratified as a sect of the Church of the Golden Sun.
+The Order of the Prism, not in name but function, existed shortly after the founding of Historia. Following the Great Flood there was an urgent need to preserve and reclaim knowledge lost in the catastrophe. The clerics of Amaunator took the duty upon themselves and began to part the shadows. Over time, the Order of the Prism was ratified as a sect of the Church of the Golden Sun.
 
 ## Tenets
 

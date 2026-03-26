@@ -8,6 +8,7 @@ Articleparent: "[[Aecury]]"
 Children:
   - "[[Bleeding Fingers]]"
   - "[[Kingdom of Historia]]"
+Includedorganizations: "[[Historian Theocracy]]"
 Parent: "[[Aecury]]"
 Type: "[[Continent]]"
 Pronunciation: "Uh-Kron"

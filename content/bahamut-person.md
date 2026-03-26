@@ -5,10 +5,8 @@ type: Person
 aliases:
   - "Bahamut"
 Religions:
-  - "[[Church of the Platinum Lord]]"
-  - "[[Church of Wind and Sun]]"
   - "[[Fraternity of the Forgewielder]]"
-  - "[[Historian Syncretate]]"
+  - "[[Historian Theocracy]]"
   - "[[House Gilcrest]]"
 draft: true
 wip: true
