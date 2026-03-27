@@ -22,7 +22,10 @@ export const Leaflet: QuartzTransformerPlugin<Partial<LeafletOptions>> = (userOp
 
   return {
     name: "Leaflet",
-    htmlPlugins() {
+    htmlPlugins(ctx) {
+      const baseUrl = ctx.cfg.configuration.baseUrl ?? ""
+      const pathPrefix = baseUrl.includes("/") ? "/" + baseUrl.split("/").slice(1).join("/") : ""
+
       return [
         () => {
           return (tree: Root, file: any) => {
@@ -58,7 +61,7 @@ export const Leaflet: QuartzTransformerPlugin<Partial<LeafletOptions>> = (userOp
                         "data-lng": config.lng?.toString() || opts.defaultCenter[1].toString(),
                         "data-zoom": config.zoom?.toString() || opts.defaultZoom.toString(),
                         "data-markers": JSON.stringify(config.markers || []),
-                        "data-image": config.image || "",
+                        "data-image": config.image ? (config.image.startsWith("/") ? pathPrefix + config.image : config.image) : "",
                         "data-bounds": JSON.stringify(config.bounds || []),
                         style: `height: ${config.height || "400px"}; width: 100%; border-radius: 8px; margin: 1rem 0;`,
                       },
