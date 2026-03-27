@@ -8,4 +8,4 @@ draft: true
 wip: true
 ---
 
-The last Onyx King, defeated by Clavis Hemwick, Oren Smeltback, and Rowena before he was able to open a portal to Aecury from the Yellow Wastes.
+A mind flayer lich and the last Onyx King, defeated by Clavis Hemwick, Oren Smeltback, and Rowena before he was able to open a portal to Aecury from the Yellow Wastes.

@@ -1,28 +1,22 @@
 # CLAUDE.md
 
+@C:/Users/exman/.claude/shared.md
+
 This file provides guidance to Claude Code when working with the Aecury worldbuilding project.
 
 ## Quick Reference
 
 ### Source of Truth
 
-**World Anvil Export:**
-- Location: `C:\Users\exman\Documents\aecury-site\source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
-- 427 JSON files (canonical source)
+**The markdown files in `content/` are canon.** The World Anvil export was the origin of the migration — it's done. Do not treat the WA JSON as authoritative. If a lore detail isn't in `content/`, it doesn't exist yet.
 
-**Converter:**
-- Script: `C:\Users\exman\Documents\aecury-site\convert_wa_json.py`
-- Reads from: `source\world-anvil-export-2023-08-30\worlds\Aecury\articles\`
-- Outputs to: `content\`
-
-**Other sources:**
+**Other reference material (not canonical, informational only):**
 - `C:\Users\exman\Documents\aecury\aecury-export.pdf` - PDF export backup
 - `C:\Users\exman\Documents\aecury\orishahns-guide.docx` - Source document
 
 ### Common Sense
 
-- **Verify before claiming success** - Read the actual output, compare to source
-- **Fix root causes, not symptoms** - When converter fails, fix the converter
+- **Verify before claiming success** - Read the actual output
 - **Use full Windows paths** - `C:\Users\exman\Documents\aecury-site\content\` not relative paths
 - **Check git status before starting** - Know what's uncommitted from previous work
 

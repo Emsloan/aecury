@@ -36,7 +36,7 @@ He/Him
 
 ## Eyes
 
-Acid green with horizontal, squid-like pupils
+Acid green with horizontal, squid-like pupils (one eye; right eye lost to Lusgidall's experiments)
 
 ## Hair
 
@@ -74,7 +74,7 @@ For a time it was unclear what effect the experiments had on him and so the Masq
 
 Clavis moved with Oren to Forgefall. Like all of Oren's wards he was taught the art of blacksmithing. Clavis never took very strongly to the craft but the concepts, particularly the creation of alloys and the practice of reforging broken pieces, would play a hand in the development of his ideologies later in life.
 
-Oren hoped that there were no lasting affects from the experiments other than the loss of Clavis' right eye and the intercranial tentacle that rarely appeared in the empty socket. His hopes were dashed when Clavis fell ill early in his adolescence. Clavis underwent a psionic awakening his as his aberrant sorcerous powers flared to life. Clavis began to hear the thoughts and feel the emotions of the people of Forgefall unable to shut out the maddening voices. Oren tried to teach Clavis to control his powers, but the differences between their magics, divine and arcane, were too pronounced to be of much use.
+Oren hoped that there were no lasting affects from the experiments other than the loss of Clavis' right eye and the intercranial tentacle that rarely appeared in the empty socket. His hopes were dashed when Clavis fell ill early in his adolescence. Clavis underwent a psionic awakening as his aberrant mind sorcerer powers flared to life. Clavis began to hear the thoughts and feel the emotions of the people of Forgefall unable to shut out the maddening voices. Oren tried to teach Clavis to control his powers, but the differences between their magics, divine and arcane, were too pronounced to be of much use.
 
 Far away, Lusgidall felt Clavis' magical manifestation and began to appear to him in visions. Lusgidall's influence, though malignant and corrupting, afforded Clavis a greater understanding of his own abilities. Around this time another, more esoteric power, took notice of Clavis as well. Through the unknowingly combined support of Oren, Lusgidall, and the mysterious third Clavis gained control over his gifts.
 
